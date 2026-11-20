@@ -1,0 +1,77 @@
+seed: 42
+datasets:
+  scifact:
+    index: beir-v1.0.0-scifact.flat
+    topics: beir-v1.0.0-scifact-test
+    prompt: scifact
+  nfcorpus:
+    index: beir-v1.0.0-nfcorpus.flat
+    topics: beir-v1.0.0-nfcorpus-test
+    prompt: covid
+  fiqa:
+    index: beir-v1.0.0-fiqa.flat
+    topics: beir-v1.0.0-fiqa-test
+    prompt: fiqa
+  trec-covid:
+    index: beir-v1.0.0-trec-covid.flat
+    topics: beir-v1.0.0-trec-covid-test
+    prompt: covid
+fiqa_sample_size: 200
+retrievers: [bm25, qld]
+bm25:
+  k1: 0.9
+  b: 0.4
+qld:
+  mu: 1000
+first_stage_depth: 1000
+feedback:
+  conditions: [F0, F1, F2, F3, F4, F5, F6]
+  real_fb_docs: 8
+  fb_terms: 128
+  min_term_len: 2
+  max_term_len: 20
+  max_df_ratio: 0.1
+  rocchio:
+    alpha: 1.0
+    beta: 0.75
+    gamma: 0.0
+  rm3:
+    original_query_weight: 0.5
+hyde:
+  backend: ollama
+  model: qwen2.5:3b-instruct
+  host: http://localhost:11434
+  num_passages: 4
+  max_new_tokens: 160
+  temperature: 0.7
+  workers: 2
+  prompts_version: v1
+reranker:
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  max_length: 512
+  batch_size: 32
+depths: [20, 50, 100]
+metrics:
+  - nDCG@10
+  - nDCG@20
+  - R@20
+  - R@50
+  - R@100
+  - R@1000
+  - AP
+  - P@10
+  - RR@10
+  - Success@10
+  - Rprec
+  - Judged@10
+stats:
+  permutations: 10000
+  bootstrap: 10000
+  alpha: 0.05
+  tie_tol: 1.0e-6
+paths:
+  data: data
+  expansions: expansions
+  runs: runs
+  cache: cache
+  results: results

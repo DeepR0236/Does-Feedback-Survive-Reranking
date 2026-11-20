@@ -1,0 +1,20 @@
+# Core Information Retrieval & Neural Ranking Dependencies
+pyserini==1.2.0
+ir_measures
+sentence-transformers
+torch
+torchvision
+torchaudio
+
+# Data processing, scientific computing and visualization
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+
+# Configuration, progress, utilities
+pyyaml
+tqdm
+requests
+jupyter

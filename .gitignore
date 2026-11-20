@@ -1,0 +1,36 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large project artifacts & caches
+cache/*.sqlite
+cache/*.db
+*.sqlite
+*.db
+
+# Prebuilt indexes, models, and temp archives
+*.tar.gz
+*.zip
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
