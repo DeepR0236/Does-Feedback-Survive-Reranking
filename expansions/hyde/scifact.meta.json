@@ -1,0 +1,23 @@
+{
+  "dataset": "scifact",
+  "prompt_id": "scifact",
+  "prompt_template": "Please write a scientific paper passage to support/refute the claim.\nClaim: {query}\nPassage:",
+  "prompt_sha1": "0a3c59a7f7a77f86b6fd6e36b30d6f88d478fc9c",
+  "model": "qwen2.5:3b-instruct",
+  "ollama_version": "0.40.16",
+  "temperature": 0.7,
+  "max_new_tokens": 160,
+  "num_passages": 4,
+  "workers": 2,
+  "config_snapshot": {
+    "backend": "ollama",
+    "model": "qwen2.5:3b-instruct",
+    "host": "http://localhost:11434",
+    "num_passages": 4,
+    "max_new_tokens": 160,
+    "temperature": 0.7,
+    "workers": 2,
+    "prompts_version": "v1"
+  },
+  "created_utc": "2026-11-22T09:49:38.771101+00:00"
+}
