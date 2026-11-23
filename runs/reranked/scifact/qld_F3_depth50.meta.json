@@ -1,0 +1,18 @@
+{
+  "dataset": "scifact",
+  "retriever": "qld",
+  "feedback": "F3",
+  "reranked": true,
+  "depth": 50,
+  "tag": "qld_F3_depth50",
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "num_queries": 300,
+  "package_versions": {
+    "torch": "2.6.0+cu124",
+    "sentence_transformers": "6.3.0",
+    "ir_measures": "0.4.3",
+    "pyserini": "1.2.0"
+  },
+  "elapsed_seconds": 0.2520686950010713,
+  "created_utc": "2026-11-22T12:43:02.754475+00:00"
+}
