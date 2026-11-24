@@ -1,0 +1,361 @@
+dataset,retriever,stage,feedback,type,rank,qid,query_claim,F0_nDCG10,feedback_nDCG10,delta
+scifact,bm25,First-Stage,F1,loss,1,575,"In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon.",1.0,0.3154648767857287,-0.6845351232142713
+scifact,bm25,First-Stage,F1,loss,2,793,Mitochondria are uninvolved in apoptosis.,1.0,0.3333333333333333,-0.6666666666666667
+scifact,bm25,First-Stage,F1,loss,3,94,Albendazole is used to treat lymphatic filariasis.,1.0,0.3562071871080222,-0.6437928128919779
+scifact,bm25,First-Stage,F1,loss,4,216,CX3CR1 on the Th2 cells impairs T cell survival,1.0,0.3562071871080222,-0.6437928128919779
+scifact,bm25,First-Stage,F1,loss,5,659,Ivermectin is used to treat lymphatic filariasis.,1.0,0.3562071871080222,-0.6437928128919779
+scifact,bm25,First-Stage,F1,loss,6,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,1.0,0.3562071871080222,-0.6437928128919779
+scifact,bm25,First-Stage,F1,loss,7,660,Ivermectin is used to treat onchocerciasis.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F1,loss,8,597,Incidence rates of cervical cancer have decreased.,0.9134015924715544,0.3379680345449381,-0.5754335579266163
+scifact,bm25,First-Stage,F1,loss,9,99,Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,First-Stage,F1,loss,10,217,CX3CR1 on the Th2 cells promotes T cell survival,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,First-Stage,F1,win,1,72,Activator-inhibitor pairs are provided dorsally by Admpchordin.,0.430676558073393,1.0,0.569323441926607
+scifact,bm25,First-Stage,F1,win,2,517,High levels of copeptin decrease risk of diabetes.,0.5,1.0,0.5
+scifact,bm25,First-Stage,F1,win,3,261,"Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",0.5,0.9197207891481876,0.41972078914818756
+scifact,bm25,First-Stage,F1,win,4,1121,Synaptic activity enhances local release of brain derived neurotrophic factor from postsynaptic dendrites.,0.6309297535714575,1.0,0.36907024642854247
+scifact,bm25,First-Stage,F1,win,5,440,Fz/PCP-dependent Pk localizes to the anterior membrane of notochord cells during zebrafish neuralation.,0.6309297535714575,1.0,0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,1,575,"In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon.",1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F2,loss,2,793,Mitochondria are uninvolved in apoptosis.,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,First-Stage,F2,loss,3,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F2,loss,4,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F2,loss,5,99,Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,6,237,Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,7,274,Combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,8,636,"Inositol lipid 3-phosphatase PTEN converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,9,637,Input from  mental and physical health care professionals is effective at decreasing homelessness.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,loss,10,785,Microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F2,win,1,1121,Synaptic activity enhances local release of brain derived neurotrophic factor from postsynaptic dendrites.,0.6309297535714575,1.0,0.36907024642854247
+scifact,bm25,First-Stage,F2,win,2,249,Chenodeosycholic acid treatment reduces whole-body energy expenditure.,0.6309297535714575,1.0,0.36907024642854247
+scifact,bm25,First-Stage,F2,win,3,198,CCL19 is absent within dLNs.,0.6309297535714575,1.0,0.36907024642854247
+scifact,bm25,First-Stage,F2,win,4,261,"Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",0.5,0.8503449055347546,0.3503449055347546
+scifact,bm25,First-Stage,F2,win,5,1280,"The ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",0.0,0.3333333333333333,0.3333333333333333
+scifact,bm25,First-Stage,F3,loss,1,793,Mitochondria are uninvolved in apoptosis.,1.0,0.2890648263178879,-0.7109351736821121
+scifact,bm25,First-Stage,F3,loss,2,124,Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F3,loss,3,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F3,loss,4,907,PGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F3,loss,5,597,Incidence rates of cervical cancer have decreased.,0.9134015924715544,0.3379680345449381,-0.5754335579266163
+scifact,bm25,First-Stage,F3,loss,6,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",1.0,0.5,-0.5
+scifact,bm25,First-Stage,F3,loss,7,217,CX3CR1 on the Th2 cells promotes T cell survival,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F3,loss,8,324,Deleting Raptor reduces G-CSF levels.,0.5,0.0,-0.5
+scifact,bm25,First-Stage,F3,loss,9,551,ITAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).,0.5,0.0,-0.5
+scifact,bm25,First-Stage,F3,loss,10,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F3,win,1,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,1.0,1.0
+scifact,bm25,First-Stage,F3,win,2,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F3,win,3,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F3,win,4,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,bm25,First-Stage,F3,win,5,1245,The one-child policy has been successful in lowering population growth.,0.3868528072345416,1.0,0.6131471927654584
+scifact,bm25,First-Stage,F4,loss,1,793,Mitochondria are uninvolved in apoptosis.,1.0,0.3562071871080222,-0.6437928128919779
+scifact,bm25,First-Stage,F4,loss,2,597,Incidence rates of cervical cancer have decreased.,0.9134015924715544,0.4776237035032179,-0.43577788896833647
+scifact,bm25,First-Stage,F4,loss,3,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F4,loss,4,294,Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F4,loss,5,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F4,loss,6,1335,UCB T cells maintain high TCR diversity after transplantation.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F4,loss,7,1336,UCB T cells reduce TCR diversity after transplantation.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F4,loss,8,729,Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.,0.6309297535714575,0.430676558073393,-0.20025319549806453
+scifact,bm25,First-Stage,F4,loss,9,324,Deleting Raptor reduces G-CSF levels.,0.5,0.3333333333333333,-0.16666666666666669
+scifact,bm25,First-Stage,F4,loss,10,128,Arterioles have a larger lumen diameter than venules.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,bm25,First-Stage,F4,win,1,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F4,win,2,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F4,win,3,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,bm25,First-Stage,F4,win,4,1245,The one-child policy has been successful in lowering population growth.,0.3868528072345416,1.0,0.6131471927654584
+scifact,bm25,First-Stage,F4,win,5,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,0.6131471927654584,0.6131471927654584
+scifact,bm25,First-Stage,F5,loss,1,793,Mitochondria are uninvolved in apoptosis.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F5,loss,2,294,Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F5,loss,3,1336,UCB T cells reduce TCR diversity after transplantation.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,First-Stage,F5,loss,4,597,Incidence rates of cervical cancer have decreased.,0.9134015924715544,0.7039180890341347,-0.20948350343741973
+scifact,bm25,First-Stage,F5,loss,5,324,Deleting Raptor reduces G-CSF levels.,0.5,0.3333333333333333,-0.16666666666666669
+scifact,bm25,First-Stage,F5,loss,6,128,Arterioles have a larger lumen diameter than venules.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,bm25,First-Stage,F5,loss,7,300,Cytosolic proteins bind to iron-responsive elements on mRNAs coding for DMT1. Cytosolic proteins bind to iron-responsive elements on mRNAs coding for proteins involved in iron uptake.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,bm25,First-Stage,F5,loss,8,729,Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,bm25,First-Stage,F5,loss,9,1362,Venules have a larger lumen diameter than arterioles.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,bm25,First-Stage,F5,loss,10,551,ITAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).,0.5,0.3868528072345416,-0.11314719276545843
+scifact,bm25,First-Stage,F5,win,1,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F5,win,2,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F5,win,3,1245,The one-child policy has been successful in lowering population growth.,0.3868528072345416,1.0,0.6131471927654584
+scifact,bm25,First-Stage,F5,win,4,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,0.6131471927654584,0.6131471927654584
+scifact,bm25,First-Stage,F5,win,5,72,Activator-inhibitor pairs are provided dorsally by Admpchordin.,0.430676558073393,1.0,0.569323441926607
+scifact,bm25,First-Stage,F6,loss,1,793,Mitochondria are uninvolved in apoptosis.,1.0,0.0,-1.0
+scifact,bm25,First-Stage,F6,loss,2,124,Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.,1.0,0.3154648767857287,-0.6845351232142713
+scifact,bm25,First-Stage,F6,loss,3,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,1.0,0.3333333333333333,-0.6666666666666667
+scifact,bm25,First-Stage,F6,loss,4,527,Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.,0.6309297535714575,0.0,-0.6309297535714575
+scifact,bm25,First-Stage,F6,loss,5,729,Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.,0.6309297535714575,0.0,-0.6309297535714575
+scifact,bm25,First-Stage,F6,loss,6,217,CX3CR1 on the Th2 cells promotes T cell survival,1.0,0.3868528072345416,-0.6131471927654584
+scifact,bm25,First-Stage,F6,loss,7,597,Incidence rates of cervical cancer have decreased.,0.9134015924715544,0.3487022475035549,-0.5646993449679996
+scifact,bm25,First-Stage,F6,loss,8,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",1.0,0.5,-0.5
+scifact,bm25,First-Stage,F6,loss,9,50,AIRE is expressed in some skin tumors.,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F6,loss,10,216,CX3CR1 on the Th2 cells impairs T cell survival,1.0,0.5,-0.5
+scifact,bm25,First-Stage,F6,win,1,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,1.0,1.0
+scifact,bm25,First-Stage,F6,win,2,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,1.0,1.0
+scifact,bm25,First-Stage,F6,win,3,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,0.8772153153380493,0.8772153153380493
+scifact,bm25,First-Stage,F6,win,4,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,First-Stage,F6,win,5,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3562071871080222,1.0,0.6437928128919779
+scifact,qld,First-Stage,F1,loss,1,674,LDL cholesterol has no involvement in the development of cardiovascular disease.,1.0,0.3333333333333333,-0.6666666666666667
+scifact,qld,First-Stage,F1,loss,2,491,HNF4A mutations can cause diabetes in mutant carriers by the age of 14 years,1.0,0.3562071871080222,-0.6437928128919779
+scifact,qld,First-Stage,F1,loss,3,575,"In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon.",1.0,0.3562071871080222,-0.6437928128919779
+scifact,qld,First-Stage,F1,loss,4,217,CX3CR1 on the Th2 cells promotes T cell survival,1.0,0.3868528072345416,-0.6131471927654584
+scifact,qld,First-Stage,F1,loss,5,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,qld,First-Stage,F1,loss,6,1207,The composition of myosin-II isoform switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,qld,First-Stage,F1,loss,7,51,ALDH1 expression is associated with better breast cancer outcomes.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F1,loss,8,380,Enhanced early production of inflammatory chemokines improves viral control in the lung.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F1,loss,9,808,Most termination events in Okazaki fragments are sequence specific.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F1,loss,10,1014,Rapamycin decreases the concentration of triacylglycerols in fruit flies.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F1,win,1,887,Only a minority of cells survive development after differentiation into stress-resistant spores.,0.430676558073393,1.0,0.569323441926607
+scifact,qld,First-Stage,F1,win,2,198,CCL19 is absent within dLNs.,0.5,1.0,0.5
+scifact,qld,First-Stage,F1,win,3,261,"Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",0.482475559390755,0.9197207891481876,0.4372452297574326
+scifact,qld,First-Stage,F1,win,4,385,Epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system.,0.3868528072345416,0.7903864795495061,0.40353367231496456
+scifact,qld,First-Stage,F1,win,5,1226,"The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",0.0,0.3868528072345416,0.3868528072345416
+scifact,qld,First-Stage,F2,loss,1,785,Microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F2,loss,2,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3333333333333333,0.0,-0.3333333333333333
+scifact,qld,First-Stage,F2,loss,3,1099,Statins decrease blood cholesterol.,0.3154648767857287,0.0,-0.3154648767857287
+scifact,qld,First-Stage,F2,loss,4,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3010299956639812,0.0,-0.3010299956639812
+scifact,qld,First-Stage,F2,loss,5,1382,aPKCz causes tumour enhancement by affecting glutamine metabolism.,0.3010299956639812,0.0,-0.3010299956639812
+scifact,qld,First-Stage,F2,loss,6,1194,The arm density of TatAd complexes is due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.,0.6309297535714575,0.430676558073393,-0.20025319549806453
+scifact,qld,First-Stage,F2,loss,7,821,N-terminal cleavage reduces success identifying transcription start sites.,0.5,0.3154648767857287,-0.1845351232142713
+scifact,qld,First-Stage,F2,loss,8,249,Chenodeosycholic acid treatment reduces whole-body energy expenditure.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,qld,First-Stage,F2,loss,9,507,Helminths interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,qld,First-Stage,F2,loss,10,1320,Transplanted human glial progenitor cells are incapable of forming a neural network with host animals' neurons.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,qld,First-Stage,F2,win,1,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,First-Stage,F2,win,2,1272,The single flash-evoked ERG b-wave is generated by activity of ON-bipolar cells.,0.0,0.3562071871080222,0.3562071871080222
+scifact,qld,First-Stage,F2,win,3,1226,"The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",0.0,0.3562071871080222,0.3562071871080222
+scifact,qld,First-Stage,F2,win,4,830,NF2 (Merlin) causes phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.,0.0,0.3562071871080222,0.3562071871080222
+scifact,qld,First-Stage,F2,win,5,275,Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.,0.4692787260227564,0.812653045383133,0.3433743193603766
+scifact,qld,First-Stage,F3,loss,1,907,PGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.,1.0,0.3562071871080222,-0.6437928128919779
+scifact,qld,First-Stage,F3,loss,2,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,3,50,AIRE is expressed in some skin tumors.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,4,124,Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,5,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,6,808,Most termination events in Okazaki fragments are sequence specific.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,7,1107,Subcutaneous fat depots undergo extensive browning processes after cold exposure.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,8,1336,UCB T cells reduce TCR diversity after transplantation.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F3,loss,9,597,Incidence rates of cervical cancer have decreased.,0.7653606369886217,0.3084274278260313,-0.4569332091625904
+scifact,qld,First-Stage,F3,loss,10,324,Deleting Raptor reduces G-CSF levels.,0.430676558073393,0.0,-0.430676558073393
+scifact,qld,First-Stage,F3,win,1,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.0,1.0,1.0
+scifact,qld,First-Stage,F3,win,2,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,1.0,1.0
+scifact,qld,First-Stage,F3,win,3,1245,The one-child policy has been successful in lowering population growth.,0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F3,win,4,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F3,win,5,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,First-Stage,F4,loss,1,128,Arterioles have a larger lumen diameter than venules.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,2,268,Cold exposure increases BAT recruitment.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,3,294,Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,4,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,5,808,Most termination events in Okazaki fragments are sequence specific.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,6,1335,UCB T cells maintain high TCR diversity after transplantation.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,7,1336,UCB T cells reduce TCR diversity after transplantation.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,8,1362,Venules have a larger lumen diameter than arterioles.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F4,loss,9,597,Incidence rates of cervical cancer have decreased.,0.7653606369886217,0.4776237035032179,-0.28773693348540375
+scifact,qld,First-Stage,F4,loss,10,690,Less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.,0.6309297535714575,0.430676558073393,-0.20025319549806453
+scifact,qld,First-Stage,F4,win,1,1245,The one-child policy has been successful in lowering population growth.,0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F4,win,2,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F4,win,3,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,First-Stage,F4,win,4,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,0.6131471927654584,0.6131471927654584
+scifact,qld,First-Stage,F4,win,5,820,N-terminal cleavage increases success identifying transcription start sites.,0.430676558073393,1.0,0.569323441926607
+scifact,qld,First-Stage,F5,loss,1,128,Arterioles have a larger lumen diameter than venules.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F5,loss,2,268,Cold exposure increases BAT recruitment.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F5,loss,3,294,Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F5,loss,4,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,First-Stage,F5,loss,5,690,Less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.,0.6309297535714575,0.430676558073393,-0.20025319549806453
+scifact,qld,First-Stage,F5,loss,6,781,Mice that lack Interferon-γ or its receptor exhibit high resistance to experimental autoimmune myocarditis.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,qld,First-Stage,F5,loss,7,859,Normal expression of RUNX1 has tumor-promoting effects.,0.6309297535714575,0.5,-0.13092975357145753
+scifact,qld,First-Stage,F5,loss,8,597,Incidence rates of cervical cancer have decreased.,0.7653606369886217,0.6713860725233041,-0.0939745644653176
+scifact,qld,First-Stage,F5,loss,9,324,Deleting Raptor reduces G-CSF levels.,0.430676558073393,0.3562071871080222,-0.07446937096537082
+scifact,qld,First-Stage,F5,loss,10,183,Bone marrow cells contribute to adult macrophage compartments.,0.5,0.430676558073393,-0.069323441926607
+scifact,qld,First-Stage,F5,win,1,1245,The one-child policy has been successful in lowering population growth.,0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F5,win,2,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F5,win,3,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,First-Stage,F5,win,4,637,Input from  mental and physical health care professionals is effective at decreasing homelessness.,0.430676558073393,1.0,0.569323441926607
+scifact,qld,First-Stage,F5,win,5,72,Activator-inhibitor pairs are provided dorsally by Admpchordin.,0.430676558073393,1.0,0.569323441926607
+scifact,qld,First-Stage,F6,loss,1,690,Less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.,0.6309297535714575,0.0,-0.6309297535714575
+scifact,qld,First-Stage,F6,loss,2,50,AIRE is expressed in some skin tumors.,1.0,0.3868528072345416,-0.6131471927654584
+scifact,qld,First-Stage,F6,loss,3,124,Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F6,loss,4,907,PGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,First-Stage,F6,loss,5,48,"A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,loss,6,268,Cold exposure increases BAT recruitment.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,loss,7,380,Enhanced early production of inflammatory chemokines improves viral control in the lung.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,loss,8,684,Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,loss,9,808,Most termination events in Okazaki fragments are sequence specific.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,loss,10,1107,Subcutaneous fat depots undergo extensive browning processes after cold exposure.,1.0,0.5,-0.5
+scifact,qld,First-Stage,F6,win,1,628,Infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin.,0.0,1.0,1.0
+scifact,qld,First-Stage,F6,win,2,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.0,0.9197207891481876,0.9197207891481876
+scifact,qld,First-Stage,F6,win,3,1245,The one-child policy has been successful in lowering population growth.,0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F6,win,4,587,"In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",0.3333333333333333,1.0,0.6666666666666667
+scifact,qld,First-Stage,F6,win,5,756,Many proteins in human cells can be post-translationally modified at lysine residues via acetylation.,0.3562071871080222,1.0,0.6437928128919779
+scifact,bm25,Reranked Depth 100,F1,loss,1,1088,Silencing of Bcl2 is important for the maintenance and progression of tumors.,1.0,0.0,-1.0
+scifact,bm25,Reranked Depth 100,F1,loss,2,1395,p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).,0.6309297535714575,0.0,-0.6309297535714575
+scifact,bm25,Reranked Depth 100,F1,loss,3,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.5,-0.5
+scifact,bm25,Reranked Depth 100,F1,loss,4,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.1312050775123417,-0.14606834984270647
+scifact,bm25,Reranked Depth 100,F1,loss,5,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.3154648767857287,-0.11521168128766429
+scifact,bm25,Reranked Depth 100,F1,loss,6,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F1,loss,7,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3562071871080222,-0.03064562012651939
+scifact,bm25,Reranked Depth 100,F1,loss,8,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F1,loss,9,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F1,loss,10,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F1,win,1,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F1,win,2,775,Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).,0.0,0.3154648767857287,0.3154648767857287
+scifact,bm25,Reranked Depth 100,F1,win,3,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,bm25,Reranked Depth 100,F1,win,4,133,"Assembly of invadopodia is triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",0.5147714448836774,0.6128107307150344,0.09803928583135701
+scifact,bm25,Reranked Depth 100,F1,win,5,388,Ethanol stress decreases the expression of IBP in bacteria.,0.2890648263178879,0.3154648767857287,0.02640005046784083
+scifact,bm25,Reranked Depth 100,F2,loss,1,1395,p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).,0.6309297535714575,0.0,-0.6309297535714575
+scifact,bm25,Reranked Depth 100,F2,loss,2,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,Reranked Depth 100,F2,loss,3,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.3010299956639812,-0.1296465624094118
+scifact,bm25,Reranked Depth 100,F2,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,bm25,Reranked Depth 100,F2,loss,5,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F2,loss,6,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.252016380211836,-0.025257047143212197
+scifact,bm25,Reranked Depth 100,F2,loss,7,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,bm25,Reranked Depth 100,F2,loss,8,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F2,loss,9,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F2,loss,10,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F2,win,1,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F2,win,2,775,Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).,0.0,0.3154648767857287,0.3154648767857287
+scifact,bm25,Reranked Depth 100,F2,win,3,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,bm25,Reranked Depth 100,F2,win,4,133,"Assembly of invadopodia is triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",0.5147714448836774,0.6128107307150344,0.09803928583135701
+scifact,bm25,Reranked Depth 100,F2,win,5,94,Albendazole is used to treat lymphatic filariasis.,0.3154648767857287,0.3333333333333333,0.017868456547604605
+scifact,bm25,Reranked Depth 100,F3,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,Reranked Depth 100,F3,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.0,-0.430676558073393
+scifact,bm25,Reranked Depth 100,F3,loss,3,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,bm25,Reranked Depth 100,F3,loss,4,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F3,loss,5,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.252016380211836,-0.025257047143212197
+scifact,bm25,Reranked Depth 100,F3,loss,6,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F3,loss,7,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F3,loss,8,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F3,loss,9,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F3,loss,10,36,A deficiency of vitamin B12 increases blood levels of homocysteine.,0.3889580943680543,0.3889580943680543,0.0
+scifact,bm25,Reranked Depth 100,F3,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,bm25,Reranked Depth 100,F3,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F3,win,3,659,Ivermectin is used to treat lymphatic filariasis.,0.0,0.3333333333333333,0.3333333333333333
+scifact,bm25,Reranked Depth 100,F3,win,4,527,Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.,0.0,0.3333333333333333,0.3333333333333333
+scifact,bm25,Reranked Depth 100,F3,win,5,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.3010299956639812,0.3010299956639812
+scifact,bm25,Reranked Depth 100,F4,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,Reranked Depth 100,F4,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.0,-0.430676558073393
+scifact,bm25,Reranked Depth 100,F4,loss,3,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F4,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F4,loss,5,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.252016380211836,-0.025257047143212197
+scifact,bm25,Reranked Depth 100,F4,loss,6,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,bm25,Reranked Depth 100,F4,loss,7,94,Albendazole is used to treat lymphatic filariasis.,0.3154648767857287,0.3010299956639812,-0.014434881121747511
+scifact,bm25,Reranked Depth 100,F4,loss,8,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F4,loss,9,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F4,loss,10,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F4,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.5,0.5
+scifact,bm25,Reranked Depth 100,F4,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F4,win,3,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.2890648263178879,0.2890648263178879
+scifact,bm25,Reranked Depth 100,F4,win,4,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,bm25,Reranked Depth 100,F4,win,5,821,N-terminal cleavage reduces success identifying transcription start sites.,0.3010299956639812,0.3333333333333333,0.03230333766935212
+scifact,bm25,Reranked Depth 100,F5,loss,1,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.0,-0.430676558073393
+scifact,bm25,Reranked Depth 100,F5,loss,2,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,bm25,Reranked Depth 100,F5,loss,3,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F5,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,bm25,Reranked Depth 100,F5,loss,5,94,Albendazole is used to treat lymphatic filariasis.,0.3154648767857287,0.2890648263178879,-0.02640005046784083
+scifact,bm25,Reranked Depth 100,F5,loss,6,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.252016380211836,-0.025257047143212197
+scifact,bm25,Reranked Depth 100,F5,loss,7,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,bm25,Reranked Depth 100,F5,loss,8,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F5,loss,9,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F5,loss,10,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F5,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.5,0.5
+scifact,bm25,Reranked Depth 100,F5,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F5,win,3,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,bm25,Reranked Depth 100,F5,win,4,821,N-terminal cleavage reduces success identifying transcription start sites.,0.3010299956639812,0.3333333333333333,0.03230333766935212
+scifact,bm25,Reranked Depth 100,F5,win,5,1395,p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).,0.6309297535714575,0.6309297535714575,0.0
+scifact,bm25,Reranked Depth 100,F6,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.430676558073393,-0.569323441926607
+scifact,bm25,Reranked Depth 100,F6,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.0,-0.430676558073393
+scifact,bm25,Reranked Depth 100,F6,loss,3,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.0,-0.3868528072345416
+scifact,bm25,Reranked Depth 100,F6,loss,4,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,bm25,Reranked Depth 100,F6,loss,5,873,Obesity is determined solely by environmental factors.,0.2772734273550482,0.252016380211836,-0.025257047143212197
+scifact,bm25,Reranked Depth 100,F6,loss,6,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F6,loss,7,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F6,loss,8,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,bm25,Reranked Depth 100,F6,loss,9,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,bm25,Reranked Depth 100,F6,loss,10,36,A deficiency of vitamin B12 increases blood levels of homocysteine.,0.3889580943680543,0.3889580943680543,0.0
+scifact,bm25,Reranked Depth 100,F6,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,bm25,Reranked Depth 100,F6,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,bm25,Reranked Depth 100,F6,win,3,527,Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.,0.0,0.3154648767857287,0.3154648767857287
+scifact,bm25,Reranked Depth 100,F6,win,4,1280,"The ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",0.0,0.3010299956639812,0.3010299956639812
+scifact,bm25,Reranked Depth 100,F6,win,5,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.3010299956639812,0.3010299956639812
+scifact,qld,Reranked Depth 100,F1,loss,1,1088,Silencing of Bcl2 is important for the maintenance and progression of tumors.,1.0,0.0,-1.0
+scifact,qld,Reranked Depth 100,F1,loss,2,619,Increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.,0.3868528072345416,0.0,-0.3868528072345416
+scifact,qld,Reranked Depth 100,F1,loss,3,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,Reranked Depth 100,F1,loss,4,873,Obesity is determined solely by environmental factors.,0.252016380211836,0.1312050775123417,-0.12081130269949428
+scifact,qld,Reranked Depth 100,F1,loss,5,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.3154648767857287,-0.11521168128766429
+scifact,qld,Reranked Depth 100,F1,loss,6,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F1,loss,7,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3562071871080222,-0.03064562012651939
+scifact,qld,Reranked Depth 100,F1,loss,8,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,qld,Reranked Depth 100,F1,loss,9,727,Ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts.,0.3010299956639812,0.2890648263178879,-0.011965169346093318
+scifact,qld,Reranked Depth 100,F1,loss,10,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F1,win,1,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F1,win,2,775,Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).,0.0,0.3154648767857287,0.3154648767857287
+scifact,qld,Reranked Depth 100,F1,win,3,820,N-terminal cleavage increases success identifying transcription start sites.,0.0,0.2890648263178879,0.2890648263178879
+scifact,qld,Reranked Depth 100,F1,win,4,452,Gene expression does not vary appreciably across genetically identical cells.,0.3868528072345416,0.6131471927654584,0.2262943855309168
+scifact,qld,Reranked Depth 100,F1,win,5,275,Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.,0.7039180890341347,0.8710785440003369,0.16716045496620224
+scifact,qld,Reranked Depth 100,F2,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,Reranked Depth 100,F2,loss,2,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F2,loss,3,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F2,loss,4,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.3868528072345416,-0.04382375083885143
+scifact,qld,Reranked Depth 100,F2,loss,5,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,qld,Reranked Depth 100,F2,loss,6,727,Ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts.,0.3010299956639812,0.2890648263178879,-0.011965169346093318
+scifact,qld,Reranked Depth 100,F2,loss,7,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F2,loss,8,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F2,loss,9,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F2,loss,10,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F2,win,1,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F2,win,2,775,Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).,0.0,0.3154648767857287,0.3154648767857287
+scifact,qld,Reranked Depth 100,F2,win,3,659,Ivermectin is used to treat lymphatic filariasis.,0.0,0.2890648263178879,0.2890648263178879
+scifact,qld,Reranked Depth 100,F2,win,4,452,Gene expression does not vary appreciably across genetically identical cells.,0.3868528072345416,0.6131471927654584,0.2262943855309168
+scifact,qld,Reranked Depth 100,F2,win,5,275,Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.,0.7039180890341347,0.8710785440003369,0.16716045496620224
+scifact,qld,Reranked Depth 100,F3,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.430676558073393,-0.569323441926607
+scifact,qld,Reranked Depth 100,F3,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.0,-0.430676558073393
+scifact,qld,Reranked Depth 100,F3,loss,3,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,qld,Reranked Depth 100,F3,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3562071871080222,-0.03064562012651939
+scifact,qld,Reranked Depth 100,F3,loss,5,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F3,loss,6,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F3,loss,7,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F3,loss,8,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F3,loss,9,36,A deficiency of vitamin B12 increases blood levels of homocysteine.,0.3889580943680543,0.3889580943680543,0.0
+scifact,qld,Reranked Depth 100,F3,loss,10,42,A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F3,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.5,0.5
+scifact,qld,Reranked Depth 100,F3,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F3,win,3,659,Ivermectin is used to treat lymphatic filariasis.,0.0,0.3562071871080222,0.3562071871080222
+scifact,qld,Reranked Depth 100,F3,win,4,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.3010299956639812,0.3010299956639812
+scifact,qld,Reranked Depth 100,F3,win,5,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,qld,Reranked Depth 100,F4,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.5,-0.5
+scifact,qld,Reranked Depth 100,F4,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.2890648263178879,-0.14161173175550512
+scifact,qld,Reranked Depth 100,F4,loss,3,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,qld,Reranked Depth 100,F4,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F4,loss,5,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,qld,Reranked Depth 100,F4,loss,6,727,Ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts.,0.3010299956639812,0.2890648263178879,-0.011965169346093318
+scifact,qld,Reranked Depth 100,F4,loss,7,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F4,loss,8,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F4,loss,9,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F4,loss,10,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F4,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,Reranked Depth 100,F4,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F4,win,3,659,Ivermectin is used to treat lymphatic filariasis.,0.0,0.3154648767857287,0.3154648767857287
+scifact,qld,Reranked Depth 100,F4,win,4,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.3010299956639812,0.3010299956639812
+scifact,qld,Reranked Depth 100,F4,win,5,1179,The PRR MDA5 has a central DExD/H RNA helices domain.,0.0,0.2890648263178879,0.2890648263178879
+scifact,qld,Reranked Depth 100,F5,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.6309297535714575,-0.36907024642854247
+scifact,qld,Reranked Depth 100,F5,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.2890648263178879,-0.14161173175550512
+scifact,qld,Reranked Depth 100,F5,loss,3,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F5,loss,4,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+scifact,qld,Reranked Depth 100,F5,loss,5,475,Glycolysis is one of the primary glycometabolic pathways in cells.,0.3562071871080222,0.3333333333333333,-0.022873853774688868
+scifact,qld,Reranked Depth 100,F5,loss,6,727,Ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts.,0.3010299956639812,0.2890648263178879,-0.011965169346093318
+scifact,qld,Reranked Depth 100,F5,loss,7,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F5,loss,8,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F5,loss,9,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F5,loss,10,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F5,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,Reranked Depth 100,F5,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F5,win,3,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.2890648263178879,0.2890648263178879
+scifact,qld,Reranked Depth 100,F5,win,4,275,Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.,0.7039180890341347,0.8710785440003369,0.16716045496620224
+scifact,qld,Reranked Depth 100,F5,win,5,821,N-terminal cleavage reduces success identifying transcription start sites.,0.2890648263178879,0.3154648767857287,0.02640005046784083
+scifact,qld,Reranked Depth 100,F6,loss,1,1204,The combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells.,1.0,0.5,-0.5
+scifact,qld,Reranked Depth 100,F6,loss,2,715,Low expression of miR7a does represses target genes and exerts a biological function in ovaries.,0.430676558073393,0.2890648263178879,-0.14161173175550512
+scifact,qld,Reranked Depth 100,F6,loss,3,834,NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.,0.3868528072345416,0.3010299956639812,-0.08582281157056038
+scifact,qld,Reranked Depth 100,F6,loss,4,198,CCL19 is absent within dLNs.,0.3868528072345416,0.3154648767857287,-0.07138793044881286
+scifact,qld,Reranked Depth 100,F6,loss,5,1,0-dimensional biomaterials show inductive properties.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F6,loss,6,3,"1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F6,loss,7,5,1/2000 in UK have abnormal PrP positivity.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F6,loss,8,13,5% of perinatal mortality is due to low birth weight.,0.0,0.0,0.0
+scifact,qld,Reranked Depth 100,F6,loss,9,36,A deficiency of vitamin B12 increases blood levels of homocysteine.,0.3889580943680543,0.3889580943680543,0.0
+scifact,qld,Reranked Depth 100,F6,loss,10,42,A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.,1.0,1.0,0.0
+scifact,qld,Reranked Depth 100,F6,win,1,1200,The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.,0.0,0.6309297535714575,0.6309297535714575
+scifact,qld,Reranked Depth 100,F6,win,2,1049,Ribosomopathies have a low degree of cell and tissue specific pathology.,0.0,0.430676558073393,0.430676558073393
+scifact,qld,Reranked Depth 100,F6,win,3,1221,The genomic aberrations found in matasteses are very similar to those found in the primary tumor.,0.0,0.3010299956639812,0.3010299956639812
+scifact,qld,Reranked Depth 100,F6,win,4,659,Ivermectin is used to treat lymphatic filariasis.,0.0,0.3010299956639812,0.3010299956639812
+scifact,qld,Reranked Depth 100,F6,win,5,1280,"The ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",0.0,0.2890648263178879,0.2890648263178879
