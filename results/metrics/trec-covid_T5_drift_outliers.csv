@@ -1,0 +1,361 @@
+dataset,retriever,stage,feedback,type,rank,qid,query_claim,F0_nDCG10,feedback_nDCG10,delta
+trec-covid,bm25,First-Stage,F1,loss,1,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2200917662980801,0.0,-0.2200917662980801
+trec-covid,bm25,First-Stage,F1,loss,2,41,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,0.7842418078309635,0.5655527377186026,-0.21868907011236094
+trec-covid,bm25,First-Stage,F1,loss,3,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.4832964623025934,0.2659585103795918,-0.2173379519230016
+trec-covid,bm25,First-Stage,F1,loss,4,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.4034622814226771,0.1943337498988458,-0.2091285315238313
+trec-covid,bm25,First-Stage,F1,loss,5,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.7289115290270202,0.5407430405797335,-0.18816848844728662
+trec-covid,bm25,First-Stage,F1,loss,6,15,how long can the coronavirus live outside the body,0.2548073772664688,0.1150802300283553,-0.1397271472381135
+trec-covid,bm25,First-Stage,F1,loss,7,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.4690000933206748,0.3405196929097571,-0.12848040041091774
+trec-covid,bm25,First-Stage,F1,loss,8,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.1736666713479918,0.0947883643695507,-0.0788783069784411
+trec-covid,bm25,First-Stage,F1,loss,9,34,What are the longer-term complications of those who recover from COVID-19?,0.1706728379730304,0.0947883643695507,-0.0758844736034797
+trec-covid,bm25,First-Stage,F1,loss,10,33,What vaccine candidates are being tested for Covid-19?,0.7475470162440776,0.6764927241835997,-0.07105429206047786
+trec-covid,bm25,First-Stage,F1,win,1,18,what are the best masks for preventing infection by Covid-19?,0.5745197847605008,0.8847630951196416,0.31024331035914077
+trec-covid,bm25,First-Stage,F1,win,2,47,what are the health outcomes for children who contract COVID-19?,0.715550648768261,0.92663607790064,0.21108542913237893
+trec-covid,bm25,First-Stage,F1,win,3,13,what are the transmission routes of coronavirus?,0.5391068681709005,0.7493179404762845,0.21021107230538405
+trec-covid,bm25,First-Stage,F1,win,4,35,What new public datasets are available related to COVID-19?,0.4793821367833117,0.6879509227782195,0.20856878599490775
+trec-covid,bm25,First-Stage,F1,win,5,27,what is known about those infected with Covid-19 but are asymptomatic?,0.5759455040725838,0.7828229030435763,0.20687739897099244
+trec-covid,bm25,First-Stage,F2,loss,1,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.7289115290270202,0.5407430405797335,-0.18816848844728662
+trec-covid,bm25,First-Stage,F2,loss,2,26,what are the initial symptoms of Covid-19?,0.5549335849520572,0.3943453740534718,-0.16058821089858544
+trec-covid,bm25,First-Stage,F2,loss,3,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.4034622814226771,0.2503042086836182,-0.1531580727390589
+trec-covid,bm25,First-Stage,F2,loss,4,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.4832964623025934,0.3322127338339808,-0.15108372846861257
+trec-covid,bm25,First-Stage,F2,loss,5,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2200917662980801,0.0694312219367772,-0.1506605443613029
+trec-covid,bm25,First-Stage,F2,loss,6,11,what are the guidelines for triaging patients infected with coronavirus?,0.3431160303827197,0.2496957913163817,-0.093420239066338
+trec-covid,bm25,First-Stage,F2,loss,7,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.1736666713479918,0.0851431176416209,-0.0885235537063709
+trec-covid,bm25,First-Stage,F2,loss,8,15,how long can the coronavirus live outside the body,0.2548073772664688,0.1780615783628922,-0.0767457989035766
+trec-covid,bm25,First-Stage,F2,loss,9,41,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,0.7842418078309635,0.7205720760457723,-0.0636697317851912
+trec-covid,bm25,First-Stage,F2,loss,10,1,what is the origin of COVID-19,0.1921556763022041,0.141616258248633,-0.050539418053571095
+trec-covid,bm25,First-Stage,F2,win,1,18,what are the best masks for preventing infection by Covid-19?,0.5745197847605008,0.8781749213086989,0.3036551365481981
+trec-covid,bm25,First-Stage,F2,win,2,35,What new public datasets are available related to COVID-19?,0.4793821367833117,0.7314470771099789,0.2520649403266672
+trec-covid,bm25,First-Stage,F2,win,3,47,what are the health outcomes for children who contract COVID-19?,0.715550648768261,0.92663607790064,0.21108542913237893
+trec-covid,bm25,First-Stage,F2,win,4,44,How much impact do masks have on preventing the spread of the COVID-19?,0.6555476069276601,0.8280235466843832,0.17247593975672304
+trec-covid,bm25,First-Stage,F2,win,5,13,what are the transmission routes of coronavirus?,0.5391068681709005,0.7103978477318377,0.1712909795609372
+trec-covid,bm25,First-Stage,F3,loss,1,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.8851021949626573,0.2279382616777583,-0.657163933284899
+trec-covid,bm25,First-Stage,F3,loss,2,40,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,1.0,0.4507283559879083,-0.5492716440120917
+trec-covid,bm25,First-Stage,F3,loss,3,33,What vaccine candidates are being tested for Covid-19?,0.7475470162440776,0.3145315783518713,-0.4330154378922063
+trec-covid,bm25,First-Stage,F3,loss,4,24,what kinds of complications related to COVID-19 are associated with diabetes,0.9363792118010484,0.5690973944519303,-0.36728181734911813
+trec-covid,bm25,First-Stage,F3,loss,5,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.4983727497617244,0.208273280632016,-0.2900994691297084
+trec-covid,bm25,First-Stage,F3,loss,6,39,What is the mechanism of cytokine storm syndrome on the COVID-19?,0.8899541168509599,0.6078421520159137,-0.2821119648350462
+trec-covid,bm25,First-Stage,F3,loss,7,7,are there serological tests that detect antibodies to coronavirus?,0.8415908474314976,0.5648901044069581,-0.2767007430245395
+trec-covid,bm25,First-Stage,F3,loss,8,13,what are the transmission routes of coronavirus?,0.5391068681709005,0.2842994909044317,-0.2548073772664688
+trec-covid,bm25,First-Stage,F3,loss,9,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.7877736340270854,-0.21222636597291455
+trec-covid,bm25,First-Stage,F3,loss,10,11,what are the guidelines for triaging patients infected with coronavirus?,0.3431160303827197,0.1799314820111717,-0.163184548371548
+trec-covid,bm25,First-Stage,F3,win,1,15,how long can the coronavirus live outside the body,0.2548073772664688,0.8636649221552609,0.6088575448887921
+trec-covid,bm25,First-Stage,F3,win,2,16,how long does coronavirus remain stable  on surfaces?,0.443266994341511,1.0,0.5567330056584889
+trec-covid,bm25,First-Stage,F3,win,3,1,what is the origin of COVID-19,0.1921556763022041,0.6639727527817494,0.4718170764795453
+trec-covid,bm25,First-Stage,F3,win,4,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.5053603444371989,0.9305687780632228,0.4252084336260239
+trec-covid,bm25,First-Stage,F3,win,5,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2200917662980801,0.5664337387494274,0.34634197245134724
+trec-covid,bm25,First-Stage,F4,loss,1,7,are there serological tests that detect antibodies to coronavirus?,0.8415908474314976,0.5063209639325833,-0.3352698834989143
+trec-covid,bm25,First-Stage,F4,loss,2,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.8851021949626573,0.620560214345796,-0.2645419806168613
+trec-covid,bm25,First-Stage,F4,loss,3,24,what kinds of complications related to COVID-19 are associated with diabetes,0.9363792118010484,0.7364467516797271,-0.19993246012132138
+trec-covid,bm25,First-Stage,F4,loss,4,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.8389574121760602,-0.16104258782393976
+trec-covid,bm25,First-Stage,F4,loss,5,33,What vaccine candidates are being tested for Covid-19?,0.7475470162440776,0.6311096555517802,-0.11643736069229738
+trec-covid,bm25,First-Stage,F4,loss,6,39,What is the mechanism of cytokine storm syndrome on the COVID-19?,0.8899541168509599,0.7877736340270854,-0.10218048282387449
+trec-covid,bm25,First-Stage,F4,loss,7,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.8338208781370765,0.7360396023152922,-0.09778127582178431
+trec-covid,bm25,First-Stage,F4,loss,8,31,How does the coronavirus differ from seasonal flu?,0.1574400653338154,0.066254223454389,-0.09118584187942641
+trec-covid,bm25,First-Stage,F4,loss,9,11,what are the guidelines for triaging patients infected with coronavirus?,0.3431160303827197,0.2684550357175426,-0.07466099466517712
+trec-covid,bm25,First-Stage,F4,loss,10,19,what type of hand sanitizer is needed to destroy Covid-19?,0.6971684531570845,0.6572128768711382,-0.03995557628594637
+trec-covid,bm25,First-Stage,F4,win,1,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.1736666713479918,0.7724314071081957,0.598764735760204
+trec-covid,bm25,First-Stage,F4,win,2,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2200917662980801,0.7221503826978086,0.5020586163997285
+trec-covid,bm25,First-Stage,F4,win,3,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.5053603444371989,1.0,0.4946396555628011
+trec-covid,bm25,First-Stage,F4,win,4,16,how long does coronavirus remain stable  on surfaces?,0.443266994341511,0.8552385058825712,0.4119715115410602
+trec-covid,bm25,First-Stage,F4,win,5,26,what are the initial symptoms of Covid-19?,0.5549335849520572,0.9363792118010484,0.3814456268489912
+trec-covid,bm25,First-Stage,F5,loss,1,7,are there serological tests that detect antibodies to coronavirus?,0.8415908474314976,0.6214011939609386,-0.22018965347055897
+trec-covid,bm25,First-Stage,F5,loss,2,24,what kinds of complications related to COVID-19 are associated with diabetes,0.9363792118010484,0.7695445648825839,-0.1668346469184645
+trec-covid,bm25,First-Stage,F5,loss,3,31,How does the coronavirus differ from seasonal flu?,0.1574400653338154,0.0,-0.1574400653338154
+trec-covid,bm25,First-Stage,F5,loss,4,11,what are the guidelines for triaging patients infected with coronavirus?,0.3431160303827197,0.2153829792769871,-0.1277330511057326
+trec-covid,bm25,First-Stage,F5,loss,5,21,what are the mortality rates overall and in specific populations,0.7125523635307982,0.6090726157997783,-0.10347974773101987
+trec-covid,bm25,First-Stage,F5,loss,6,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.8851021949626573,0.7987360667512216,-0.08636612821143574
+trec-covid,bm25,First-Stage,F5,loss,7,15,how long can the coronavirus live outside the body,0.2548073772664688,0.1862566260583299,-0.06855075120813889
+trec-covid,bm25,First-Stage,F5,loss,8,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.9363792118010484,-0.06362078819895156
+trec-covid,bm25,First-Stage,F5,loss,9,19,what type of hand sanitizer is needed to destroy Covid-19?,0.6971684531570845,0.6777473959399467,-0.019421057217137827
+trec-covid,bm25,First-Stage,F5,loss,10,35,What new public datasets are available related to COVID-19?,0.4793821367833117,0.4673791184803734,-0.012003018302938318
+trec-covid,bm25,First-Stage,F5,win,1,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.1736666713479918,0.7125523635307982,0.5388856921828065
+trec-covid,bm25,First-Stage,F5,win,2,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2200917662980801,0.6948337047084396,0.4747419384103595
+trec-covid,bm25,First-Stage,F5,win,3,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.5053603444371989,0.933745776545611,0.42838543210841207
+trec-covid,bm25,First-Stage,F5,win,4,25,which biomarkers predict the severe clinical course of 2019-nCOV infection?,0.6525726784981861,0.9574284411791896,0.30485576268100345
+trec-covid,bm25,First-Stage,F5,win,5,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.4034622814226771,0.665570704495687,0.2621084230730099
+trec-covid,bm25,First-Stage,F6,loss,1,39,What is the mechanism of cytokine storm syndrome on the COVID-19?,0.8899541168509599,0.3063365306564336,-0.5836175861945263
+trec-covid,bm25,First-Stage,F6,loss,2,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.8851021949626573,0.3075206888021068,-0.5775815061605505
+trec-covid,bm25,First-Stage,F6,loss,3,13,what are the transmission routes of coronavirus?,0.5391068681709005,0.233507134249174,-0.30559973392172646
+trec-covid,bm25,First-Stage,F6,loss,4,26,what are the initial symptoms of Covid-19?,0.5549335849520572,0.3535981533591635,-0.20133543159289374
+trec-covid,bm25,First-Stage,F6,loss,5,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.806226525932264,-0.19377347406773604
+trec-covid,bm25,First-Stage,F6,loss,6,19,what type of hand sanitizer is needed to destroy Covid-19?,0.6971684531570845,0.5359039492286365,-0.16126450392844804
+trec-covid,bm25,First-Stage,F6,loss,7,48,what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?,0.8050871312582554,0.6515797660870227,-0.15350736517123265
+trec-covid,bm25,First-Stage,F6,loss,8,47,what are the health outcomes for children who contract COVID-19?,0.715550648768261,0.5621931439243354,-0.15335750484392563
+trec-covid,bm25,First-Stage,F6,loss,9,24,what kinds of complications related to COVID-19 are associated with diabetes,0.9363792118010484,0.7889842824281822,-0.14739492937286625
+trec-covid,bm25,First-Stage,F6,loss,10,4,what causes death from Covid-19?,0.1427951440361373,0.0,-0.1427951440361373
+trec-covid,bm25,First-Stage,F6,win,1,15,how long can the coronavirus live outside the body,0.2548073772664688,0.8967920338824555,0.6419846566159868
+trec-covid,bm25,First-Stage,F6,win,2,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.1736666713479918,0.7369336042041889,0.563266932856197
+trec-covid,bm25,First-Stage,F6,win,3,16,how long does coronavirus remain stable  on surfaces?,0.443266994341511,1.0,0.5567330056584889
+trec-covid,bm25,First-Stage,F6,win,4,1,what is the origin of COVID-19,0.1921556763022041,0.6523902535071733,0.4602345772049692
+trec-covid,bm25,First-Stage,F6,win,5,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.4034622814226771,0.7965812792043342,0.3931189977816571
+trec-covid,qld,First-Stage,F1,loss,1,47,what are the health outcomes for children who contract COVID-19?,0.4537425745411855,0.2532954041105318,-0.2004471704306537
+trec-covid,qld,First-Stage,F1,loss,2,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2489083270225946,0.05502294157452,-0.1938853854480746
+trec-covid,qld,First-Stage,F1,loss,3,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.2200917662980801,0.0318103940994758,-0.1882813721986043
+trec-covid,qld,First-Stage,F1,loss,4,17,are there any clinical trials available for the coronavirus,0.2956426841646394,0.1498113059440708,-0.1458313782205686
+trec-covid,qld,First-Stage,F1,loss,5,35,What new public datasets are available related to COVID-19?,0.6601585067762746,0.5224955967919311,-0.1376629099843435
+trec-covid,qld,First-Stage,F1,loss,6,26,what are the initial symptoms of Covid-19?,0.49118023727106,0.3594085870969891,-0.13177165017407094
+trec-covid,qld,First-Stage,F1,loss,7,34,What are the longer-term complications of those who recover from COVID-19?,0.1928529819234156,0.0694312219367772,-0.1234217599866384
+trec-covid,qld,First-Stage,F1,loss,8,1,what is the origin of COVID-19,0.1844278360693264,0.0792535198704905,-0.1051743161988359
+trec-covid,qld,First-Stage,F1,loss,9,4,what causes death from Covid-19?,0.1003027492486317,0.0,-0.1003027492486317
+trec-covid,qld,First-Stage,F1,loss,10,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.3168396662242264,0.2200917662980801,-0.09674789992614627
+trec-covid,qld,First-Stage,F1,win,1,44,How much impact do masks have on preventing the spread of the COVID-19?,0.6434035614033737,0.8363467019993649,0.19294314059599116
+trec-covid,qld,First-Stage,F1,win,2,6,what types of rapid testing for Covid-19 have been developed?,0.534853442808603,0.7146151600451015,0.17976171723649848
+trec-covid,qld,First-Stage,F1,win,3,27,what is known about those infected with Covid-19 but are asymptomatic?,0.4993915826327635,0.6767225505943246,0.17733096796156111
+trec-covid,qld,First-Stage,F1,win,4,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.2988988466803325,0.4568579727589217,0.1579591260785892
+trec-covid,qld,First-Stage,F1,win,5,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.4348156606487507,0.5813317813321205,0.14651612068336978
+trec-covid,qld,First-Stage,F2,loss,1,42,Does Vitamin D impact COVID-19 prevention and treatment?,1.0,0.8236998933965709,-0.1763001066034291
+trec-covid,qld,First-Stage,F2,loss,2,17,are there any clinical trials available for the coronavirus,0.2956426841646394,0.1556854387678744,-0.139957245396765
+trec-covid,qld,First-Stage,F2,loss,3,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.3787833386759354,0.2489083270225946,-0.12987501165334078
+trec-covid,qld,First-Stage,F2,loss,4,34,What are the longer-term complications of those who recover from COVID-19?,0.1928529819234156,0.0694312219367772,-0.1234217599866384
+trec-covid,qld,First-Stage,F2,loss,5,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.2200917662980801,0.1372637520432025,-0.0828280142548776
+trec-covid,qld,First-Stage,F2,loss,6,30,is remdesivir an effective treatment for COVID-19,0.9608008655106622,0.8800395525988096,-0.08076131291185262
+trec-covid,qld,First-Stage,F2,loss,7,14,what evidence is there related to COVID-19 super spreaders,0.81567097302588,0.7411065951145809,-0.0745643779112991
+trec-covid,qld,First-Stage,F2,loss,8,9,how has COVID-19 affected Canada,0.2233164379481072,0.1517708415006662,-0.07154559644744102
+trec-covid,qld,First-Stage,F2,loss,9,4,what causes death from Covid-19?,0.1003027492486317,0.0347156109683886,-0.0655871382802431
+trec-covid,qld,First-Stage,F2,loss,10,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.2489083270225946,0.1834098052484001,-0.06549852177419452
+trec-covid,qld,First-Stage,F2,win,1,44,How much impact do masks have on preventing the spread of the COVID-19?,0.6434035614033737,0.9082950973757998,0.2648915359724261
+trec-covid,qld,First-Stage,F2,win,2,48,what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?,0.642186726668901,0.8517926582444502,0.2096059315755492
+trec-covid,qld,First-Stage,F2,win,3,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.2435522702101235,0.4521472607752954,0.2085949905651719
+trec-covid,qld,First-Stage,F2,win,4,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.4348156606487507,0.6008388171072592,0.16602315645850846
+trec-covid,qld,First-Stage,F2,win,5,27,what is known about those infected with Covid-19 but are asymptomatic?,0.4993915826327635,0.6643571463986159,0.16496556376585236
+trec-covid,qld,First-Stage,F3,loss,1,40,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,1.0,0.4947188195961058,-0.5052811804038941
+trec-covid,qld,First-Stage,F3,loss,2,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.5904555032260218,0.1706626453838725,-0.4197928578421493
+trec-covid,qld,First-Stage,F3,loss,3,42,Does Vitamin D impact COVID-19 prevention and treatment?,1.0,0.6141069626790936,-0.3858930373209064
+trec-covid,qld,First-Stage,F3,loss,4,13,what are the transmission routes of coronavirus?,0.6432537010760666,0.2919282502941764,-0.3513254507818902
+trec-covid,qld,First-Stage,F3,loss,5,6,what types of rapid testing for Covid-19 have been developed?,0.534853442808603,0.2899773651602118,-0.24487607764839125
+trec-covid,qld,First-Stage,F3,loss,6,39,What is the mechanism of cytokine storm syndrome on the COVID-19?,0.8468317346717831,0.6110346154456288,-0.23579711922615432
+trec-covid,qld,First-Stage,F3,loss,7,14,what evidence is there related to COVID-19 super spreaders,0.81567097302588,0.593248808714596,-0.22242216431128403
+trec-covid,qld,First-Stage,F3,loss,8,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.8138870479356013,-0.1861129520643987
+trec-covid,qld,First-Stage,F3,loss,9,35,What new public datasets are available related to COVID-19?,0.6601585067762746,0.4899308685417078,-0.17022763823456682
+trec-covid,qld,First-Stage,F3,loss,10,28,what evidence is there for the value of hydroxychloroquine in treating Covid-19?,0.8049088863818175,0.6410457898283652,-0.16386309655345221
+trec-covid,qld,First-Stage,F3,win,1,16,how long does coronavirus remain stable  on surfaces?,0.164219586306328,1.0,0.835780413693672
+trec-covid,qld,First-Stage,F3,win,2,15,how long can the coronavirus live outside the body,0.0694312219367772,0.8636649221552609,0.7942337002184837
+trec-covid,qld,First-Stage,F3,win,3,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.2988988466803325,0.9321572773044168,0.6332584306240843
+trec-covid,qld,First-Stage,F3,win,4,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.2435522702101235,0.6843890850722449,0.44083681486212145
+trec-covid,qld,First-Stage,F3,win,5,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.1722511446250666,0.6028756807992246,0.43062453617415797
+trec-covid,qld,First-Stage,F4,loss,1,35,What new public datasets are available related to COVID-19?,0.6601585067762746,0.3877503857178334,-0.27240812105844125
+trec-covid,qld,First-Stage,F4,loss,2,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.5904555032260218,0.335718639570227,-0.2547368636557948
+trec-covid,qld,First-Stage,F4,loss,3,33,What vaccine candidates are being tested for Covid-19?,0.5581192338570764,0.3065949242996175,-0.2515243095574589
+trec-covid,qld,First-Stage,F4,loss,4,40,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,1.0,0.7799082337019199,-0.22009176629808014
+trec-covid,qld,First-Stage,F4,loss,5,6,what types of rapid testing for Covid-19 have been developed?,0.534853442808603,0.3372080579682881,-0.1976453848403149
+trec-covid,qld,First-Stage,F4,loss,6,42,Does Vitamin D impact COVID-19 prevention and treatment?,1.0,0.8482378089219645,-0.15176219107803546
+trec-covid,qld,First-Stage,F4,loss,7,14,what evidence is there related to COVID-19 super spreaders,0.81567097302588,0.6896188578006448,-0.12605211522523518
+trec-covid,qld,First-Stage,F4,loss,8,43,"How has the COVID-19 pandemic impacted violence in society, including violent crimes?",0.7334134271912702,0.6606689170984172,-0.07274451009285299
+trec-covid,qld,First-Stage,F4,loss,9,30,is remdesivir an effective treatment for COVID-19,0.9608008655106622,0.8938868170135427,-0.06691404849711957
+trec-covid,qld,First-Stage,F4,loss,10,9,how has COVID-19 affected Canada,0.2233164379481072,0.176848020265821,-0.04646841768228621
+trec-covid,qld,First-Stage,F4,win,1,16,how long does coronavirus remain stable  on surfaces?,0.164219586306328,0.9681896059005244,0.8039700195941963
+trec-covid,qld,First-Stage,F4,win,2,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.1722511446250666,0.7884334590698159,0.6161823144447492
+trec-covid,qld,First-Stage,F4,win,3,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.2988988466803325,0.8519750832354628,0.5530762365551303
+trec-covid,qld,First-Stage,F4,win,4,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.2435522702101235,0.7461409419938964,0.5025886717837729
+trec-covid,qld,First-Stage,F4,win,5,47,what are the health outcomes for children who contract COVID-19?,0.4537425745411855,0.92663607790064,0.47289350335945446
+trec-covid,qld,First-Stage,F5,loss,1,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.5904555032260218,0.4739311792422823,-0.11652432398373952
+trec-covid,qld,First-Stage,F5,loss,2,33,What vaccine candidates are being tested for Covid-19?,0.5581192338570764,0.4482945266961304,-0.109824707160946
+trec-covid,qld,First-Stage,F5,loss,3,40,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,1.0,0.9052116356304492,-0.09478836436955085
+trec-covid,qld,First-Stage,F5,loss,4,42,Does Vitamin D impact COVID-19 prevention and treatment?,1.0,0.92663607790064,-0.07336392209936005
+trec-covid,qld,First-Stage,F5,loss,5,14,what evidence is there related to COVID-19 super spreaders,0.81567097302588,0.7426849017666171,-0.07298607125926293
+trec-covid,qld,First-Stage,F5,loss,6,9,how has COVID-19 affected Canada,0.2233164379481072,0.1604762995182467,-0.0628401384298605
+trec-covid,qld,First-Stage,F5,loss,7,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.1794771050858173,0.1367936348846682,-0.0426834702011491
+trec-covid,qld,First-Stage,F5,loss,8,43,"How has the COVID-19 pandemic impacted violence in society, including violent crimes?",0.7334134271912702,0.7242897052973689,-0.009123721893901315
+trec-covid,qld,First-Stage,F5,loss,9,10,has social distancing had an impact on slowing the spread of COVID-19?,0.9681896059005244,0.9681896059005244,0.0
+trec-covid,qld,First-Stage,F5,loss,10,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,1.0,0.0
+trec-covid,qld,First-Stage,F5,win,1,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.1722511446250666,0.7772050868859213,0.6049539422608546
+trec-covid,qld,First-Stage,F5,win,2,16,how long does coronavirus remain stable  on surfaces?,0.164219586306328,0.6769023376372896,0.5126827513309615
+trec-covid,qld,First-Stage,F5,win,3,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.2435522702101235,0.7175867104101135,0.47403444019998997
+trec-covid,qld,First-Stage,F5,win,4,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.2988988466803325,0.7605981659423928,0.4616993192620603
+trec-covid,qld,First-Stage,F5,win,5,25,which biomarkers predict the severe clinical course of 2019-nCOV infection?,0.43735247915031,0.806226525932264,0.36887404678195396
+trec-covid,qld,First-Stage,F6,loss,1,13,what are the transmission routes of coronavirus?,0.6432537010760666,0.197041998752147,-0.4462117023239196
+trec-covid,qld,First-Stage,F6,loss,2,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.5904555032260218,0.2659223973305581,-0.3245331058954637
+trec-covid,qld,First-Stage,F6,loss,3,39,What is the mechanism of cytokine storm syndrome on the COVID-19?,0.8468317346717831,0.5435448261700722,-0.3032869085017109
+trec-covid,qld,First-Stage,F6,loss,4,40,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,1.0,0.7451926227335312,-0.25480737726646885
+trec-covid,qld,First-Stage,F6,loss,5,36,What is the protein structure of the SARS-CoV-2 spike?,1.0,0.7604501415130205,-0.23954985848697952
+trec-covid,qld,First-Stage,F6,loss,6,42,Does Vitamin D impact COVID-19 prevention and treatment?,1.0,0.7791714369672127,-0.2208285630327873
+trec-covid,qld,First-Stage,F6,loss,7,31,How does the coronavirus differ from seasonal flu?,0.2200917662980801,0.0318103940994758,-0.1882813721986043
+trec-covid,qld,First-Stage,F6,loss,8,10,has social distancing had an impact on slowing the spread of COVID-19?,0.9681896059005244,0.8739675298366664,-0.09422207606385802
+trec-covid,qld,First-Stage,F6,loss,9,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.3787833386759354,0.286604940828739,-0.09217839784719639
+trec-covid,qld,First-Stage,F6,loss,10,14,what evidence is there related to COVID-19 super spreaders,0.81567097302588,0.730784342371274,-0.084886630654606
+trec-covid,qld,First-Stage,F6,win,1,16,how long does coronavirus remain stable  on surfaces?,0.164219586306328,1.0,0.835780413693672
+trec-covid,qld,First-Stage,F6,win,2,15,how long can the coronavirus live outside the body,0.0694312219367772,0.8636649221552609,0.7942337002184837
+trec-covid,qld,First-Stage,F6,win,3,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.1722511446250666,0.8316359900157387,0.6593848453906721
+trec-covid,qld,First-Stage,F6,win,4,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.2988988466803325,0.9019353824461352,0.6030365357658027
+trec-covid,qld,First-Stage,F6,win,5,1,what is the origin of COVID-19,0.1844278360693264,0.6152497354175642,0.43082189934823784
+trec-covid,bm25,Reranked Depth 100,F1,loss,1,4,what causes death from Covid-19?,0.4457429526948324,0.0,-0.4457429526948324
+trec-covid,bm25,Reranked Depth 100,F1,loss,2,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.2879344889936633,-0.37825562750853087
+trec-covid,bm25,Reranked Depth 100,F1,loss,3,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.4015257689924452,-0.24740580633940135
+trec-covid,bm25,Reranked Depth 100,F1,loss,4,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.7550345657291458,-0.165760857986603
+trec-covid,bm25,Reranked Depth 100,F1,loss,5,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.8072143363061247,-0.16097526959439967
+trec-covid,bm25,Reranked Depth 100,F1,loss,6,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.9526058178152246,0.8227308061618839,-0.1298750116533407
+trec-covid,bm25,Reranked Depth 100,F1,loss,7,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.6870930339383563,-0.09872444259659552
+trec-covid,bm25,Reranked Depth 100,F1,loss,8,36,What is the protein structure of the SARS-CoV-2 spike?,0.9082950973757998,0.8244555950767654,-0.08383950229903447
+trec-covid,bm25,Reranked Depth 100,F1,loss,9,21,what are the mortality rates overall and in specific populations,0.6405914129030109,0.5836175861945262,-0.05697382670848472
+trec-covid,bm25,Reranked Depth 100,F1,loss,10,1,what is the origin of COVID-19,0.4610322340879142,0.4050704257257728,-0.05596180836214143
+trec-covid,bm25,Reranked Depth 100,F1,win,1,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.4826366372598628,0.7799082337019199,0.2972715964420571
+trec-covid,bm25,Reranked Depth 100,F1,win,2,9,how has COVID-19 affected Canada,0.2344065099232998,0.4861914865823482,0.25178497665904837
+trec-covid,bm25,Reranked Depth 100,F1,win,3,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9574284411791896,0.21671934196660747
+trec-covid,bm25,Reranked Depth 100,F1,win,4,11,what are the guidelines for triaging patients infected with coronavirus?,0.1977061742303187,0.3464092906808876,0.1487031164505689
+trec-covid,bm25,Reranked Depth 100,F1,win,5,31,How does the coronavirus differ from seasonal flu?,0.4051988050932436,0.5300754125954363,0.12487660750219276
+trec-covid,bm25,Reranked Depth 100,F2,loss,1,4,what causes death from Covid-19?,0.4457429526948324,0.1848893028052299,-0.26085364988960247
+trec-covid,bm25,Reranked Depth 100,F2,loss,2,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.6396988517535809,-0.14611862478137094
+trec-covid,bm25,Reranked Depth 100,F2,loss,3,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.9526058178152246,0.8227308061618839,-0.1298750116533407
+trec-covid,bm25,Reranked Depth 100,F2,loss,4,36,What is the protein structure of the SARS-CoV-2 spike?,0.9082950973757998,0.7790277629732815,-0.12926733440251836
+trec-covid,bm25,Reranked Depth 100,F2,loss,5,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.7942337002184836,-0.12656172349726524
+trec-covid,bm25,Reranked Depth 100,F2,loss,6,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.5589658343262607,-0.1072242821759335
+trec-covid,bm25,Reranked Depth 100,F2,loss,7,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.8909917927337877,-0.07719781316673668
+trec-covid,bm25,Reranked Depth 100,F2,loss,8,21,what are the mortality rates overall and in specific populations,0.6405914129030109,0.5836175861945262,-0.05697382670848472
+trec-covid,bm25,Reranked Depth 100,F2,loss,9,31,How does the coronavirus differ from seasonal flu?,0.4051988050932436,0.3506656257391595,-0.05453317935408408
+trec-covid,bm25,Reranked Depth 100,F2,loss,10,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.5969155694174201,-0.052016005914426455
+trec-covid,bm25,Reranked Depth 100,F2,win,1,1,what is the origin of COVID-19,0.4610322340879142,0.589370154175555,0.12833792008764083
+trec-covid,bm25,Reranked Depth 100,F2,win,2,10,has social distancing had an impact on slowing the spread of COVID-19?,0.7598993181546542,0.8710623129677536,0.11116299481309944
+trec-covid,bm25,Reranked Depth 100,F2,win,3,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.7633064147956938,0.8733522979447341,0.11004588314904029
+trec-covid,bm25,Reranked Depth 100,F2,win,4,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.8970638154959308,1.0,0.10293618450406916
+trec-covid,bm25,Reranked Depth 100,F2,win,5,9,how has COVID-19 affected Canada,0.2344065099232998,0.3214961622634443,0.08708965234014449
+trec-covid,bm25,Reranked Depth 100,F3,loss,1,24,what kinds of complications related to COVID-19 are associated with diabetes,0.913406683325887,0.7042095631539148,-0.20919712017197223
+trec-covid,bm25,Reranked Depth 100,F3,loss,2,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.7124630069083354,-0.20833241680741343
+trec-covid,bm25,Reranked Depth 100,F3,loss,3,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.6507845732933326,0.45449827622138,-0.1962862970719526
+trec-covid,bm25,Reranked Depth 100,F3,loss,4,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.7991052671686879,-0.16908433873183648
+trec-covid,bm25,Reranked Depth 100,F3,loss,5,33,What vaccine candidates are being tested for Covid-19?,0.8550757259534602,0.719143447037715,-0.1359322789157451
+trec-covid,bm25,Reranked Depth 100,F3,loss,6,47,what are the health outcomes for children who contract COVID-19?,0.9227128302108007,0.8071470180765844,-0.11556581213421635
+trec-covid,bm25,Reranked Depth 100,F3,loss,7,31,How does the coronavirus differ from seasonal flu?,0.4051988050932436,0.2933870997492994,-0.11181170534394419
+trec-covid,bm25,Reranked Depth 100,F3,loss,8,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.694490424750849,-0.09132705178410283
+trec-covid,bm25,Reranked Depth 100,F3,loss,9,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.5981649688155983,-0.06802514768659584
+trec-covid,bm25,Reranked Depth 100,F3,loss,10,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.9526058178152246,0.8876683119885542,-0.06493750582667035
+trec-covid,bm25,Reranked Depth 100,F3,win,1,15,how long can the coronavirus live outside the body,0.2251261131773954,0.6491866215793948,0.4240605084019994
+trec-covid,bm25,Reranked Depth 100,F3,win,2,34,What are the longer-term complications of those who recover from COVID-19?,0.3875876057887223,0.741670249010153,0.3540826432214307
+trec-covid,bm25,Reranked Depth 100,F3,win,3,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.9608008655106622,0.3118692901788157
+trec-covid,bm25,Reranked Depth 100,F3,win,4,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.6274092458891772,0.9276737537834676,0.3002645078942904
+trec-covid,bm25,Reranked Depth 100,F3,win,5,9,how has COVID-19 affected Canada,0.2344065099232998,0.4976334889377624,0.26322697901446257
+trec-covid,bm25,Reranked Depth 100,F4,loss,1,31,How does the coronavirus differ from seasonal flu?,0.4051988050932436,0.1627144312130135,-0.2424843738802301
+trec-covid,bm25,Reranked Depth 100,F4,loss,2,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.7017507857732401,-0.21904463794250872
+trec-covid,bm25,Reranked Depth 100,F4,loss,3,24,what kinds of complications related to COVID-19 are associated with diabetes,0.913406683325887,0.7042095631539148,-0.20919712017197223
+trec-covid,bm25,Reranked Depth 100,F4,loss,4,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.9526058178152246,0.8227308061618839,-0.1298750116533407
+trec-covid,bm25,Reranked Depth 100,F4,loss,5,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.6701925282253383,-0.11562494830961356
+trec-covid,bm25,Reranked Depth 100,F4,loss,6,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.6455395059384721,0.5376595788343828,-0.10787992710408933
+trec-covid,bm25,Reranked Depth 100,F4,loss,7,6,what types of rapid testing for Covid-19 have been developed?,0.8611375561264454,0.7799082337019199,-0.08122932242452552
+trec-covid,bm25,Reranked Depth 100,F4,loss,8,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.5874527476805029,-0.07873736882169124
+trec-covid,bm25,Reranked Depth 100,F4,loss,9,4,what causes death from Covid-19?,0.4457429526948324,0.3713757552742848,-0.07436719742054759
+trec-covid,bm25,Reranked Depth 100,F4,loss,10,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.9276737537834676,-0.04051585211705677
+trec-covid,bm25,Reranked Depth 100,F4,win,1,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9574284411791896,0.21671934196660747
+trec-covid,bm25,Reranked Depth 100,F4,win,2,1,what is the origin of COVID-19,0.4610322340879142,0.668297676488162,0.20726544240024775
+trec-covid,bm25,Reranked Depth 100,F4,win,3,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.8532721558012798,0.20434058046943326
+trec-covid,bm25,Reranked Depth 100,F4,win,4,15,how long can the coronavirus live outside the body,0.2251261131773954,0.409012048058913,0.1838859348815176
+trec-covid,bm25,Reranked Depth 100,F4,win,5,11,what are the guidelines for triaging patients infected with coronavirus?,0.1977061742303187,0.3464092906808876,0.1487031164505689
+trec-covid,bm25,Reranked Depth 100,F5,loss,1,47,what are the health outcomes for children who contract COVID-19?,0.9227128302108007,0.7799082337019199,-0.1428045965088809
+trec-covid,bm25,Reranked Depth 100,F5,loss,2,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.5981649688155983,-0.06802514768659584
+trec-covid,bm25,Reranked Depth 100,F5,loss,3,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.8529527010201656,-0.06784272269558322
+trec-covid,bm25,Reranked Depth 100,F5,loss,4,36,What is the protein structure of the SARS-CoV-2 spike?,0.9082950973757998,0.8611375561264454,-0.04715754124935445
+trec-covid,bm25,Reranked Depth 100,F5,loss,5,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.6455395059384721,0.6012803670333345,-0.04425913890513755
+trec-covid,bm25,Reranked Depth 100,F5,loss,6,41,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,1.0,0.9668728882728056,-0.0331271117271944
+trec-covid,bm25,Reranked Depth 100,F5,loss,7,31,How does the coronavirus differ from seasonal flu?,0.4051988050932436,0.3809768772199039,-0.024221927873339655
+trec-covid,bm25,Reranked Depth 100,F5,loss,8,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.7740675795170285,-0.011749897017923283
+trec-covid,bm25,Reranked Depth 100,F5,loss,9,11,what are the guidelines for triaging patients infected with coronavirus?,0.1977061742303187,0.1879630403299103,-0.009743133900408402
+trec-covid,bm25,Reranked Depth 100,F5,loss,10,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.96331803895032,-0.004871566950204409
+trec-covid,bm25,Reranked Depth 100,F5,win,1,4,what causes death from Covid-19?,0.4457429526948324,0.7423559945127591,0.29661304181792675
+trec-covid,bm25,Reranked Depth 100,F5,win,2,1,what is the origin of COVID-19,0.4610322340879142,0.6585295944988568,0.19749736041094262
+trec-covid,bm25,Reranked Depth 100,F5,win,3,34,What are the longer-term complications of those who recover from COVID-19?,0.3875876057887223,0.5352543167750639,0.14766671098634154
+trec-covid,bm25,Reranked Depth 100,F5,win,4,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.4826366372598628,0.6272907917320693,0.14465415447220648
+trec-covid,bm25,Reranked Depth 100,F5,win,5,25,which biomarkers predict the severe clinical course of 2019-nCOV infection?,0.8238161552123505,0.96331803895032,0.13950188373796946
+trec-covid,bm25,Reranked Depth 100,F6,loss,1,33,What vaccine candidates are being tested for Covid-19?,0.8550757259534602,0.5977769253863432,-0.25729880056711696
+trec-covid,bm25,Reranked Depth 100,F6,loss,2,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.9681896059005244,0.7803864358037506,-0.18780317009677383
+trec-covid,bm25,Reranked Depth 100,F6,loss,3,45,How has the COVID-19 pandemic impacted mental health?,0.7858174765349518,0.6250592028140718,-0.16075827372088003
+trec-covid,bm25,Reranked Depth 100,F6,loss,4,17,are there any clinical trials available for the coronavirus,0.9207954237157489,0.8162707399704855,-0.10452468374526336
+trec-covid,bm25,Reranked Depth 100,F6,loss,5,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.9526058178152246,0.8513642017789715,-0.10124161603625303
+trec-covid,bm25,Reranked Depth 100,F6,loss,6,26,what are the initial symptoms of Covid-19?,0.9681896059005244,0.8701249883466593,-0.09806461755386509
+trec-covid,bm25,Reranked Depth 100,F6,loss,7,6,what types of rapid testing for Covid-19 have been developed?,0.8611375561264454,0.7799082337019199,-0.08122932242452552
+trec-covid,bm25,Reranked Depth 100,F6,loss,8,35,What new public datasets are available related to COVID-19?,0.8236998933965709,0.7460573260980901,-0.07764256729848085
+trec-covid,bm25,Reranked Depth 100,F6,loss,9,23,what kinds of complications related to COVID-19 are associated with hypertension?,0.6455395059384721,0.5734923014668308,-0.07204720447164126
+trec-covid,bm25,Reranked Depth 100,F6,loss,10,50,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,0.6661901165021942,0.5981649688155983,-0.06802514768659584
+trec-covid,bm25,Reranked Depth 100,F6,win,1,15,how long can the coronavirus live outside the body,0.2251261131773954,0.784838196711107,0.5597120835337116
+trec-covid,bm25,Reranked Depth 100,F6,win,2,34,What are the longer-term complications of those who recover from COVID-19?,0.3875876057887223,0.7564477297898766,0.3688601240011543
+trec-covid,bm25,Reranked Depth 100,F6,win,3,9,how has COVID-19 affected Canada,0.2344065099232998,0.5505883616398103,0.3161818517165105
+trec-covid,bm25,Reranked Depth 100,F6,win,4,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.8913696435738849,0.2424380682420384
+trec-covid,bm25,Reranked Depth 100,F6,win,5,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9194787060880302,0.17876960687544807
+trec-covid,qld,Reranked Depth 100,F1,loss,1,25,which biomarkers predict the severe clinical course of 2019-nCOV infection?,0.8874369434113023,0.4690000933206748,-0.4184368500906275
+trec-covid,qld,Reranked Depth 100,F1,loss,2,1,what is the origin of COVID-19,0.4161706902901234,0.1086303564261149,-0.3075403338640085
+trec-covid,qld,Reranked Depth 100,F1,loss,3,47,what are the health outcomes for children who contract COVID-19?,0.933745776545611,0.6325414799409712,-0.30120429660463977
+trec-covid,qld,Reranked Depth 100,F1,loss,4,34,What are the longer-term complications of those who recover from COVID-19?,0.7175101843248565,0.4188832895788655,-0.29862689474599097
+trec-covid,qld,Reranked Depth 100,F1,loss,5,4,what causes death from Covid-19?,0.4925708465739146,0.2166134430608517,-0.27595740351306286
+trec-covid,qld,Reranked Depth 100,F1,loss,6,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.7851099783245825,0.5458992196806188,-0.23921075864396368
+trec-covid,qld,Reranked Depth 100,F1,loss,7,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.860759705286348,0.6860192450064947,-0.17474046027985335
+trec-covid,qld,Reranked Depth 100,F1,loss,8,21,what are the mortality rates overall and in specific populations,0.7257345305446319,0.5836175861945262,-0.1421169443501057
+trec-covid,qld,Reranked Depth 100,F1,loss,9,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.7709419887101346,-0.11799409731989907
+trec-covid,qld,Reranked Depth 100,F1,loss,10,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.8078443236977958,0.7397400119778951,-0.06810431171990072
+trec-covid,qld,Reranked Depth 100,F1,win,1,9,how has COVID-19 affected Canada,0.3214961622634443,0.567519087799894,0.24602292553644972
+trec-covid,qld,Reranked Depth 100,F1,win,2,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.7339613408536622,0.8733522979447341,0.13939095709107197
+trec-covid,qld,Reranked Depth 100,F1,win,3,35,What new public datasets are available related to COVID-19?,0.8205228949141826,0.9305687780632228,0.11004588314904018
+trec-covid,qld,Reranked Depth 100,F1,win,4,42,Does Vitamin D impact COVID-19 prevention and treatment?,0.8899541168509599,1.0,0.11004588314904007
+trec-covid,qld,Reranked Depth 100,F1,win,5,36,What is the protein structure of the SARS-CoV-2 spike?,0.8913696435738849,1.0,0.10863035642611507
+trec-covid,qld,Reranked Depth 100,F2,loss,1,34,What are the longer-term complications of those who recover from COVID-19?,0.7175101843248565,0.4506936836783414,-0.2668165006465151
+trec-covid,qld,Reranked Depth 100,F2,loss,2,25,which biomarkers predict the severe clinical course of 2019-nCOV infection?,0.8874369434113023,0.6977287289881946,-0.1897082144231077
+trec-covid,qld,Reranked Depth 100,F2,loss,3,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.5158625580822638,0.3515424466554094,-0.16432011142685438
+trec-covid,qld,Reranked Depth 100,F2,loss,4,21,what are the mortality rates overall and in specific populations,0.7257345305446319,0.5836175861945262,-0.1421169443501057
+trec-covid,qld,Reranked Depth 100,F2,loss,5,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.7709419887101346,-0.11799409731989907
+trec-covid,qld,Reranked Depth 100,F2,loss,6,3,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,0.7851099783245825,0.6707270539174386,-0.11438292440714393
+trec-covid,qld,Reranked Depth 100,F2,loss,7,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.8227308061618839,0.7461898855801355,-0.07654092058174833
+trec-covid,qld,Reranked Depth 100,F2,loss,8,43,"How has the COVID-19 pandemic impacted violence in society, including violent crimes?",0.8136152663221259,0.7447450603328727,-0.0688702059892532
+trec-covid,qld,Reranked Depth 100,F2,loss,9,37,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,0.8078443236977958,0.7397400119778951,-0.06810431171990072
+trec-covid,qld,Reranked Depth 100,F2,loss,10,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.860759705286348,0.8006036077373063,-0.06015609754904172
+trec-covid,qld,Reranked Depth 100,F2,win,1,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.7339613408536622,0.858383741751367,0.12442240089770484
+trec-covid,qld,Reranked Depth 100,F2,win,2,31,How does the coronavirus differ from seasonal flu?,0.3809768772199039,0.4969037077174436,0.11592683049753966
+trec-covid,qld,Reranked Depth 100,F2,win,3,35,What new public datasets are available related to COVID-19?,0.8205228949141826,0.9305687780632228,0.11004588314904018
+trec-covid,qld,Reranked Depth 100,F2,win,4,42,Does Vitamin D impact COVID-19 prevention and treatment?,0.8899541168509599,1.0,0.11004588314904007
+trec-covid,qld,Reranked Depth 100,F2,win,5,36,What is the protein structure of the SARS-CoV-2 spike?,0.8913696435738849,1.0,0.10863035642611507
+trec-covid,qld,Reranked Depth 100,F3,loss,1,45,How has the COVID-19 pandemic impacted mental health?,0.9227128302108007,0.6417085245670703,-0.28100430564373047
+trec-covid,qld,Reranked Depth 100,F3,loss,2,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.6375551787185796,-0.2513809073114541
+trec-covid,qld,Reranked Depth 100,F3,loss,3,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.860759705286348,0.6142091498387621,-0.24655055544758597
+trec-covid,qld,Reranked Depth 100,F3,loss,4,31,How does the coronavirus differ from seasonal flu?,0.3809768772199039,0.2078031634734817,-0.1731737137464222
+trec-covid,qld,Reranked Depth 100,F3,loss,5,36,What is the protein structure of the SARS-CoV-2 spike?,0.8913696435738849,0.7799082337019199,-0.11146140987196507
+trec-covid,qld,Reranked Depth 100,F3,loss,6,22,are cardiac complications likely in patients with COVID-19?,0.9182293066898518,0.8205228949141826,-0.09770641177566919
+trec-covid,qld,Reranked Depth 100,F3,loss,7,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.9668728882728056,0.8847630951196416,-0.08210979315316402
+trec-covid,qld,Reranked Depth 100,F3,loss,8,23,what kinds of complications related to COVID-19 are associated with hypertension?,1.0,0.9216017310213248,-0.07839826897867519
+trec-covid,qld,Reranked Depth 100,F3,loss,9,26,what are the initial symptoms of Covid-19?,1.0,0.9305687780632228,-0.0694312219367772
+trec-covid,qld,Reranked Depth 100,F3,loss,10,11,what are the guidelines for triaging patients infected with coronavirus?,0.3464092906808876,0.2796776671747806,-0.06673162350610701
+trec-covid,qld,Reranked Depth 100,F3,win,1,15,how long can the coronavirus live outside the body,0.2251261131773954,0.8277488553749334,0.602622742197538
+trec-covid,qld,Reranked Depth 100,F3,win,2,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.5158625580822638,0.8230597134157419,0.30719715533347813
+trec-covid,qld,Reranked Depth 100,F3,win,3,32,"Does SARS-CoV-2 have any subtypes, and if so what are they?",0.6489315753318465,0.9289904714111864,0.28005889607933987
+trec-covid,qld,Reranked Depth 100,F3,win,4,1,what is the origin of COVID-19,0.4161706902901234,0.6413890697859559,0.2252183794958325
+trec-covid,qld,Reranked Depth 100,F3,win,5,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9526058178152246,0.21189671860264248
+trec-covid,qld,Reranked Depth 100,F4,loss,1,45,How has the COVID-19 pandemic impacted mental health?,0.9227128302108007,0.6150414790312739,-0.3076713511795268
+trec-covid,qld,Reranked Depth 100,F4,loss,2,31,How does the coronavirus differ from seasonal flu?,0.3809768772199039,0.2355180774812636,-0.14545879973864032
+trec-covid,qld,Reranked Depth 100,F4,loss,3,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.7709419887101346,-0.11799409731989907
+trec-covid,qld,Reranked Depth 100,F4,loss,4,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.860759705286348,0.7435564503246982,-0.11720325496164985
+trec-covid,qld,Reranked Depth 100,F4,loss,5,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.9668728882728056,0.8509863509388742,-0.1158865373339314
+trec-covid,qld,Reranked Depth 100,F4,loss,6,21,what are the mortality rates overall and in specific populations,0.7257345305446319,0.6405914129030109,-0.08514311764162097
+trec-covid,qld,Reranked Depth 100,F4,loss,7,29,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,0.8227308061618839,0.7461898855801355,-0.07654092058174833
+trec-covid,qld,Reranked Depth 100,F4,loss,8,26,what are the initial symptoms of Covid-19?,1.0,0.9363792118010484,-0.06362078819895156
+trec-covid,qld,Reranked Depth 100,F4,loss,9,44,How much impact do masks have on preventing the spread of the COVID-19?,1.0,0.96331803895032,-0.03668196104968002
+trec-covid,qld,Reranked Depth 100,F4,loss,10,41,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,1.0,0.9668728882728056,-0.0331271117271944
+trec-covid,qld,Reranked Depth 100,F4,win,1,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.5158625580822638,0.8958531670948341,0.3799906090125703
+trec-covid,qld,Reranked Depth 100,F4,win,2,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9526058178152246,0.21189671860264248
+trec-covid,qld,Reranked Depth 100,F4,win,3,9,how has COVID-19 affected Canada,0.3214961622634443,0.5231534112996471,0.2016572490362028
+trec-covid,qld,Reranked Depth 100,F4,win,4,15,how long can the coronavirus live outside the body,0.2251261131773954,0.4076953304311944,0.182569217253799
+trec-covid,qld,Reranked Depth 100,F4,win,5,1,what is the origin of COVID-19,0.4161706902901234,0.5612456267140832,0.1450749364239598
+trec-covid,qld,Reranked Depth 100,F5,loss,1,45,How has the COVID-19 pandemic impacted mental health?,0.9227128302108007,0.795914465778115,-0.12679836443268577
+trec-covid,qld,Reranked Depth 100,F5,loss,2,21,what are the mortality rates overall and in specific populations,0.7257345305446319,0.6405914129030109,-0.08514311764162097
+trec-covid,qld,Reranked Depth 100,F5,loss,3,6,what types of rapid testing for Covid-19 have been developed?,0.8611375561264454,0.7799082337019199,-0.08122932242452552
+trec-covid,qld,Reranked Depth 100,F5,loss,4,23,what kinds of complications related to COVID-19 are associated with hypertension?,1.0,0.933745776545611,-0.06625422345438903
+trec-covid,qld,Reranked Depth 100,F5,loss,5,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.8484691774992166,-0.040466908530817136
+trec-covid,qld,Reranked Depth 100,F5,loss,6,44,How much impact do masks have on preventing the spread of the COVID-19?,1.0,0.96331803895032,-0.03668196104968002
+trec-covid,qld,Reranked Depth 100,F5,loss,7,41,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,1.0,0.9668728882728056,-0.0331271117271944
+trec-covid,qld,Reranked Depth 100,F5,loss,8,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.9668728882728056,0.9350624941733298,-0.031810394099475836
+trec-covid,qld,Reranked Depth 100,F5,loss,9,31,How does the coronavirus differ from seasonal flu?,0.3809768772199039,0.3506656257391595,-0.030311251480744428
+trec-covid,qld,Reranked Depth 100,F5,loss,10,27,what is known about those infected with Covid-19 but are asymptomatic?,0.8121161237033944,0.7926553935664473,-0.019460730136947046
+trec-covid,qld,Reranked Depth 100,F5,win,1,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.5158625580822638,0.8958531670948341,0.3799906090125703
+trec-covid,qld,Reranked Depth 100,F5,win,2,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9574284411791896,0.21671934196660747
+trec-covid,qld,Reranked Depth 100,F5,win,3,9,how has COVID-19 affected Canada,0.3214961622634443,0.5231534112996471,0.2016572490362028
+trec-covid,qld,Reranked Depth 100,F5,win,4,8,how has lack of testing availability led to underreporting of true incidence of Covid-19?,0.7339613408536622,0.8958531670948341,0.16189182624117193
+trec-covid,qld,Reranked Depth 100,F5,win,5,15,how long can the coronavirus live outside the body,0.2251261131773954,0.3765345687852912,0.1514084556078958
+trec-covid,qld,Reranked Depth 100,F6,loss,1,45,How has the COVID-19 pandemic impacted mental health?,0.9227128302108007,0.6940229455403625,-0.22868988467043827
+trec-covid,qld,Reranked Depth 100,F6,loss,2,33,What vaccine candidates are being tested for Covid-19?,0.8889360860300337,0.6687546913615642,-0.22018139466846953
+trec-covid,qld,Reranked Depth 100,F6,loss,3,5,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,0.860759705286348,0.6871016843609873,-0.17365802092536076
+trec-covid,qld,Reranked Depth 100,F6,loss,4,23,what kinds of complications related to COVID-19 are associated with hypertension?,1.0,0.8553475075669357,-0.14465249243306433
+trec-covid,qld,Reranked Depth 100,F6,loss,5,38,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,0.9668728882728056,0.8484691774992166,-0.11840371077358902
+trec-covid,qld,Reranked Depth 100,F6,loss,6,22,are cardiac complications likely in patients with COVID-19?,0.9182293066898518,0.8205228949141826,-0.09770641177566919
+trec-covid,qld,Reranked Depth 100,F6,loss,7,31,How does the coronavirus differ from seasonal flu?,0.3809768772199039,0.3018135160219889,-0.079163361197915
+trec-covid,qld,Reranked Depth 100,F6,loss,8,26,what are the initial symptoms of Covid-19?,1.0,0.92663607790064,-0.07336392209936005
+trec-covid,qld,Reranked Depth 100,F6,loss,9,46,what evidence is there for dexamethasone as a treatment for COVID-19?,0.7799082337019199,0.7325140515171443,-0.047394182184775535
+trec-covid,qld,Reranked Depth 100,F6,loss,10,13,what are the transmission routes of coronavirus?,0.7842289772937577,0.7427656079664492,-0.04146336932730854
+trec-covid,qld,Reranked Depth 100,F6,win,1,15,how long can the coronavirus live outside the body,0.2251261131773954,0.8166485908105828,0.5915224776331874
+trec-covid,qld,Reranked Depth 100,F6,win,2,49,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",0.5158625580822638,0.8264219451580568,0.310559387075793
+trec-covid,qld,Reranked Depth 100,F6,win,3,1,what is the origin of COVID-19,0.4161706902901234,0.709548337566679,0.29337764727655563
+trec-covid,qld,Reranked Depth 100,F6,win,4,9,how has COVID-19 affected Canada,0.3214961622634443,0.5681600698308359,0.2466639075673916
+trec-covid,qld,Reranked Depth 100,F6,win,5,2,how does the coronavirus respond to changes in the weather,0.7407090992125821,0.9207954237157489,0.18008632450316675

@@ -1,0 +1,23 @@
+{
+  "dataset": "nfcorpus",
+  "prompt_id": "covid",
+  "prompt_template": "Please write a scientific paper passage to answer the question.\nQuestion: {query}\nPassage:",
+  "prompt_sha1": "79e065b9ff987afa75bb71abbd5f2ca6ba0113c0",
+  "model": "qwen2.5:3b-instruct",
+  "ollama_version": "0.40.16",
+  "temperature": 0.7,
+  "max_new_tokens": 160,
+  "num_passages": 4,
+  "workers": 2,
+  "config_snapshot": {
+    "backend": "ollama",
+    "model": "qwen2.5:3b-instruct",
+    "host": "http://localhost:11434",
+    "num_passages": 4,
+    "max_new_tokens": 160,
+    "temperature": 0.7,
+    "workers": 2,
+    "prompts_version": "v1"
+  },
+  "created_utc": "2026-11-25T11:24:38.721111+00:00"
+}

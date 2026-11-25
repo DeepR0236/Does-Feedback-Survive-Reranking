@@ -1,0 +1,18 @@
+{
+  "dataset": "nfcorpus",
+  "retriever": "qld",
+  "feedback": "F2",
+  "reranked": true,
+  "depth": 50,
+  "tag": "qld_F2_depth50",
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "num_queries": 308,
+  "package_versions": {
+    "torch": "2.6.0+cu124",
+    "sentence_transformers": "6.3.0",
+    "ir_measures": "0.4.3",
+    "pyserini": "1.2.0"
+  },
+  "elapsed_seconds": 0.2410355640004127,
+  "created_utc": "2026-11-25T11:41:56.414136+00:00"
+}

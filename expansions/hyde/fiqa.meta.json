@@ -1,0 +1,23 @@
+{
+  "dataset": "fiqa",
+  "prompt_id": "fiqa",
+  "prompt_template": "Please write a financial article passage to answer the question.\nQuestion: {query}\nPassage:",
+  "prompt_sha1": "3d3c15ba866a214872a16c0971122c411e6b8383",
+  "model": "qwen2.5:3b-instruct",
+  "ollama_version": "0.40.16",
+  "temperature": 0.7,
+  "max_new_tokens": 160,
+  "num_passages": 4,
+  "workers": 2,
+  "config_snapshot": {
+    "backend": "ollama",
+    "model": "qwen2.5:3b-instruct",
+    "host": "http://localhost:11434",
+    "num_passages": 4,
+    "max_new_tokens": 160,
+    "temperature": 0.7,
+    "workers": 2,
+    "prompts_version": "v1"
+  },
+  "created_utc": "2026-11-25T10:44:24.984482+00:00"
+}

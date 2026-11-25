@@ -1,0 +1,25 @@
+dataset,retriever,stage,feedback,wins_vs_F0,losses_vs_F0,ties_vs_F0,win_loss_ratio
+nfcorpus,bm25,First-Stage,F1,109,67,147,1.626865671641791
+nfcorpus,bm25,First-Stage,F2,105,45,173,2.3333333333333335
+nfcorpus,bm25,First-Stage,F3,121,68,134,1.7794117647058822
+nfcorpus,bm25,First-Stage,F4,123,49,151,2.510204081632653
+nfcorpus,bm25,First-Stage,F5,115,39,169,2.948717948717949
+nfcorpus,bm25,First-Stage,F6,112,97,114,1.1546391752577319
+nfcorpus,qld,First-Stage,F1,98,77,148,1.2727272727272727
+nfcorpus,qld,First-Stage,F2,98,45,180,2.1777777777777776
+nfcorpus,qld,First-Stage,F3,126,67,130,1.8805970149253732
+nfcorpus,qld,First-Stage,F4,122,50,151,2.44
+nfcorpus,qld,First-Stage,F5,115,36,172,3.1944444444444446
+nfcorpus,qld,First-Stage,F6,125,78,120,1.6025641025641026
+nfcorpus,bm25,Reranked Depth 100,F1,26,22,275,1.1818181818181819
+nfcorpus,bm25,Reranked Depth 100,F2,23,13,287,1.7692307692307692
+nfcorpus,bm25,Reranked Depth 100,F3,33,19,271,1.736842105263158
+nfcorpus,bm25,Reranked Depth 100,F4,27,17,279,1.588235294117647
+nfcorpus,bm25,Reranked Depth 100,F5,22,15,286,1.4666666666666666
+nfcorpus,bm25,Reranked Depth 100,F6,40,32,251,1.25
+nfcorpus,qld,Reranked Depth 100,F1,34,19,270,1.7894736842105263
+nfcorpus,qld,Reranked Depth 100,F2,25,14,284,1.7857142857142858
+nfcorpus,qld,Reranked Depth 100,F3,31,18,274,1.7222222222222223
+nfcorpus,qld,Reranked Depth 100,F4,26,14,283,1.8571428571428572
+nfcorpus,qld,Reranked Depth 100,F5,19,16,288,1.1875
+nfcorpus,qld,Reranked Depth 100,F6,38,25,260,1.52

@@ -1,0 +1,361 @@
+dataset,retriever,stage,feedback,type,rank,qid,query_claim,F0_nDCG10,feedback_nDCG10,delta
+fiqa,bm25,First-Stage,F1,loss,1,4946,Something looks off about Mitsubishi financial data,1.0,0.3333333333333333,-0.6666666666666667
+fiqa,bm25,First-Stage,F1,loss,2,515,financial institution wants share member break down for single member LLC,1.0,0.5,-0.5
+fiqa,bm25,First-Stage,F1,loss,3,2395,Freelance site with lowest commission fees?,1.0,0.5,-0.5
+fiqa,bm25,First-Stage,F1,loss,4,7068,Making money through CFD,1.0,0.6240505200038379,-0.37594947999616213
+fiqa,bm25,First-Stage,F1,loss,5,7758,Bid/ask spreads for index funds,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,bm25,First-Stage,F1,loss,6,6278,What is the best way to help my dad consolidate his credit card debt at a lower rate?,0.8065735963827293,0.4556051495874603,-0.350968446795269
+fiqa,bm25,First-Stage,F1,loss,7,1736,How can people have such high credit card debts?,0.4599715079731103,0.1460683498427064,-0.3139031581304039
+fiqa,bm25,First-Stage,F1,loss,8,8544,Strategies to recover from a bad short-term call options purchase where the underlying dropped instead?,0.6131471927654584,0.3065735963827292,-0.3065735963827292
+fiqa,bm25,First-Stage,F1,loss,9,8475,Why I cannot find a “Pure Cash” option in 401k investments?,0.5399294342072939,0.2353510918071132,-0.30457834240018067
+fiqa,bm25,First-Stage,F1,loss,10,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,0.0,-0.3010299956639812
+fiqa,bm25,First-Stage,F1,win,1,1832,Warren Buffett and Charles Munger advice for small investors?,0.6309297535714575,1.0,0.36907024642854247
+fiqa,bm25,First-Stage,F1,win,2,10710,Probablity of touching In the money vs expiring in the money for an american option,0.0,0.2890648263178879,0.2890648263178879
+fiqa,bm25,First-Stage,F1,win,3,2348,Why can't you just have someone invest for you and split the profits (and losses) with him?,0.3222722491219547,0.5907272848394973,0.26845503571754264
+fiqa,bm25,First-Stage,F1,win,4,2923,Should I give to charity by check or credit card?,0.2442584792702138,0.5087403079104241,0.2644818286402103
+fiqa,bm25,First-Stage,F1,win,5,4615,Are solar cell panels and wind mills worth the money?,0.3692312710536414,0.5842273861585908,0.21499611510494943
+fiqa,bm25,First-Stage,F2,loss,1,515,financial institution wants share member break down for single member LLC,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,bm25,First-Stage,F2,loss,2,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,0.0,-0.3010299956639812
+fiqa,bm25,First-Stage,F2,loss,3,2587,Typically how many digits are in a cheque number?,0.6309297535714575,0.3868528072345416,-0.24407694633691596
+fiqa,bm25,First-Stage,F2,loss,4,2460,What are the consequences of not respecting a notice period when leaving a job?,0.4692787260227564,0.2346393630113782,-0.2346393630113782
+fiqa,bm25,First-Stage,F2,loss,5,8544,Strategies to recover from a bad short-term call options purchase where the underlying dropped instead?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F2,loss,6,5683,What is the PEG ratio? How is the PEG ratio calculated? How is the PEG ratio useful for stock investing?,0.8065735963827293,0.6052602440527057,-0.20131335233002356
+fiqa,bm25,First-Stage,F2,loss,7,1736,How can people have such high credit card debts?,0.4599715079731103,0.2772734273550482,-0.18269808061806214
+fiqa,bm25,First-Stage,F2,loss,8,8702,Why is early exercise generally not recommended for an in-the-money option?,0.3759063358712072,0.2021073465005475,-0.17379898937065968
+fiqa,bm25,First-Stage,F2,loss,9,8475,Why I cannot find a “Pure Cash” option in 401k investments?,0.5399294342072939,0.3727892582642586,-0.16714017594303526
+fiqa,bm25,First-Stage,F2,loss,10,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,0.3903800499921017,0.24630238874073,-0.1440776612513717
+fiqa,bm25,First-Stage,F2,win,1,2923,Should I give to charity by check or credit card?,0.2442584792702138,0.5531464700081437,0.30888799073792983
+fiqa,bm25,First-Stage,F2,win,2,2676,Tax question about selling a car,0.0,0.2890648263178879,0.2890648263178879
+fiqa,bm25,First-Stage,F2,win,3,2348,Why can't you just have someone invest for you and split the profits (and losses) with him?,0.3222722491219547,0.5548010254700116,0.23252877634805696
+fiqa,bm25,First-Stage,F2,win,4,2306,To whom should I report fraud on both of my credit cards?,0.3868528072345416,0.6131471927654584,0.2262943855309168
+fiqa,bm25,First-Stage,F2,win,5,8121,Can I calculate stock value with Williams%R if I know the last set?,0.430676558073393,0.6309297535714575,0.20025319549806453
+fiqa,bm25,First-Stage,F3,loss,1,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,bm25,First-Stage,F3,loss,2,4700,Better to get loan from finance company or bank considering the drop of credit score?,1.0,0.2890648263178879,-0.7109351736821121
+fiqa,bm25,First-Stage,F3,loss,3,1441,What's the difference between Market Cap and NAV?,0.9047172294870752,0.1951900249960508,-0.7095272044910245
+fiqa,bm25,First-Stage,F3,loss,4,4946,Something looks off about Mitsubishi financial data,1.0,0.3010299956639812,-0.6989700043360187
+fiqa,bm25,First-Stage,F3,loss,5,2587,Typically how many digits are in a cheque number?,0.6309297535714575,0.0,-0.6309297535714575
+fiqa,bm25,First-Stage,F3,loss,6,475,Do I need a new EIN since I am hiring employees for my LLC?,0.5,0.0,-0.5
+fiqa,bm25,First-Stage,F3,loss,7,2891,May I claim money earned but not received in 2012,0.5,0.0,-0.5
+fiqa,bm25,First-Stage,F3,loss,8,1451,"How do you find an ethical, honest independent insurance broker in Canada?",0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,First-Stage,F3,loss,9,6479,Trading on exchanges or via brokerage companies?,1.0,0.5706417189553201,-0.4293582810446799
+fiqa,bm25,First-Stage,F3,loss,10,6041,Most effective Fundamental Analysis indicators for market entry,0.6366824387328317,0.2476427880871277,-0.389039650645704
+fiqa,bm25,First-Stage,F3,win,1,5616,How and where do companies publish financial reports?,0.0,1.0,1.0
+fiqa,bm25,First-Stage,F3,win,2,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,1.0,0.6989700043360187
+fiqa,bm25,First-Stage,F3,win,3,9929,"Investing in commodities, pros and cons?",0.0,0.6240505200038379,0.6240505200038379
+fiqa,bm25,First-Stage,F3,win,4,8121,Can I calculate stock value with Williams%R if I know the last set?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F3,win,5,3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F4,loss,1,4700,Better to get loan from finance company or bank considering the drop of credit score?,1.0,0.430676558073393,-0.569323441926607
+fiqa,bm25,First-Stage,F4,loss,2,1451,"How do you find an ethical, honest independent insurance broker in Canada?",0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,First-Stage,F4,loss,3,515,financial institution wants share member break down for single member LLC,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,bm25,First-Stage,F4,loss,4,2587,Typically how many digits are in a cheque number?,0.6309297535714575,0.3154648767857287,-0.3154648767857288
+fiqa,bm25,First-Stage,F4,loss,5,2316,What exchange rate does El Al use when converting final payment amount to shekels?,0.9197207891481876,0.6131471927654584,-0.3065735963827292
+fiqa,bm25,First-Stage,F4,loss,6,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.2640681225725909,0.0,-0.2640681225725909
+fiqa,bm25,First-Stage,F4,loss,7,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",0.4692787260227564,0.2346393630113782,-0.2346393630113782
+fiqa,bm25,First-Stage,F4,loss,8,1157,Personal taxes for Shopify / Paypal shop?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F4,loss,9,1915,Should I pay a company who failed to collect VAT from me over 6 months ago?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F4,loss,10,6420,Does the bid/ask concept exist in dealer markets?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F4,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,1.0,0.6989700043360187
+fiqa,bm25,First-Stage,F4,win,2,5616,How and where do companies publish financial reports?,0.0,0.6309297535714575,0.6309297535714575
+fiqa,bm25,First-Stage,F4,win,3,8121,Can I calculate stock value with Williams%R if I know the last set?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F4,win,4,3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F4,win,5,9929,"Investing in commodities, pros and cons?",0.0,0.5,0.5
+fiqa,bm25,First-Stage,F5,loss,1,1451,"How do you find an ethical, honest independent insurance broker in Canada?",0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,First-Stage,F5,loss,2,4700,Better to get loan from finance company or bank considering the drop of credit score?,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,bm25,First-Stage,F5,loss,3,2587,Typically how many digits are in a cheque number?,0.6309297535714575,0.3154648767857287,-0.3154648767857288
+fiqa,bm25,First-Stage,F5,loss,4,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.2640681225725909,0.0,-0.2640681225725909
+fiqa,bm25,First-Stage,F5,loss,5,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",0.4692787260227564,0.2346393630113782,-0.2346393630113782
+fiqa,bm25,First-Stage,F5,loss,6,1157,Personal taxes for Shopify / Paypal shop?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F5,loss,7,1915,Should I pay a company who failed to collect VAT from me over 6 months ago?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,bm25,First-Stage,F5,loss,8,8779,How does a defined contribution plan work,0.2184074368181641,0.0,-0.2184074368181641
+fiqa,bm25,First-Stage,F5,loss,9,5683,What is the PEG ratio? How is the PEG ratio calculated? How is the PEG ratio useful for stock investing?,0.8065735963827293,0.6052602440527057,-0.20131335233002356
+fiqa,bm25,First-Stage,F5,loss,10,5646,Do I need multiple credit monitoring services?,0.4692787260227564,0.2960819109658652,-0.17319681505689116
+fiqa,bm25,First-Stage,F5,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,1.0,0.6989700043360187
+fiqa,bm25,First-Stage,F5,win,2,8121,Can I calculate stock value with Williams%R if I know the last set?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F5,win,3,3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F5,win,4,1310,Is is possible to take a mortgage using Bitcoin as collateral?,0.5,1.0,0.5
+fiqa,bm25,First-Stage,F5,win,5,9824,Where can end-of-day data be downloaded for corporate bonds?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,bm25,First-Stage,F6,loss,1,4700,Better to get loan from finance company or bank considering the drop of credit score?,1.0,0.0,-1.0
+fiqa,bm25,First-Stage,F6,loss,2,4946,Something looks off about Mitsubishi financial data,1.0,0.0,-1.0
+fiqa,bm25,First-Stage,F6,loss,3,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,bm25,First-Stage,F6,loss,4,6479,Trading on exchanges or via brokerage companies?,1.0,0.1845756967795681,-0.8154243032204319
+fiqa,bm25,First-Stage,F6,loss,5,1441,What's the difference between Market Cap and NAV?,0.9047172294870752,0.1510196182278052,-0.75369761125927
+fiqa,bm25,First-Stage,F6,loss,6,515,financial institution wants share member break down for single member LLC,1.0,0.3333333333333333,-0.6666666666666667
+fiqa,bm25,First-Stage,F6,loss,7,6041,Most effective Fundamental Analysis indicators for market entry,0.6366824387328317,0.0,-0.6366824387328317
+fiqa,bm25,First-Stage,F6,loss,8,1832,Warren Buffett and Charles Munger advice for small investors?,0.6309297535714575,0.0,-0.6309297535714575
+fiqa,bm25,First-Stage,F6,loss,9,2587,Typically how many digits are in a cheque number?,0.6309297535714575,0.0,-0.6309297535714575
+fiqa,bm25,First-Stage,F6,loss,10,9737,Long(100%)-Short(-100%) investment explanation,0.619668607939653,0.0,-0.619668607939653
+fiqa,bm25,First-Stage,F6,win,1,5616,How and where do companies publish financial reports?,0.0,1.0,1.0
+fiqa,bm25,First-Stage,F6,win,2,11088,Am I required to have a lawyer create / oversee creation of my will?,0.3010299956639812,1.0,0.6989700043360187
+fiqa,bm25,First-Stage,F6,win,3,2676,Tax question about selling a car,0.0,0.6309297535714575,0.6309297535714575
+fiqa,bm25,First-Stage,F6,win,4,8121,Can I calculate stock value with Williams%R if I know the last set?,0.430676558073393,1.0,0.569323441926607
+fiqa,bm25,First-Stage,F6,win,5,3039,Can increasing my tax withholding from my full-time job cover FICA taxes for my freelance work?,0.430676558073393,1.0,0.569323441926607
+fiqa,qld,First-Stage,F1,loss,1,2316,What exchange rate does El Al use when converting final payment amount to shekels?,1.0,0.3065735963827292,-0.6934264036172708
+fiqa,qld,First-Stage,F1,loss,2,4946,Something looks off about Mitsubishi financial data,1.0,0.3333333333333333,-0.6666666666666667
+fiqa,qld,First-Stage,F1,loss,3,1310,Is is possible to take a mortgage using Bitcoin as collateral?,1.0,0.3562071871080222,-0.6437928128919779
+fiqa,qld,First-Stage,F1,loss,4,2445,How do I notify the IRS of a new member to an LLC?,1.0,0.3562071871080222,-0.6437928128919779
+fiqa,qld,First-Stage,F1,loss,5,7758,Bid/ask spreads for index funds,1.0,0.430676558073393,-0.569323441926607
+fiqa,qld,First-Stage,F1,loss,6,9188,Selling mutual fund and buying equivalent ETF: Can I 1031 exchange?,0.6131471927654584,0.1934264036172708,-0.41972078914818756
+fiqa,qld,First-Stage,F1,loss,7,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.6131471927654584,0.2184074368181641,-0.39473975594729427
+fiqa,qld,First-Stage,F1,loss,8,1441,What's the difference between Market Cap and NAV?,0.9267582364714126,0.5501555404615289,-0.3766026960098837
+fiqa,qld,First-Stage,F1,loss,9,10932,Transferring money from 403B to 401K?,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,qld,First-Stage,F1,loss,10,6278,What is the best way to help my dad consolidate his credit card debt at a lower rate?,0.7903864795495061,0.4217734095488644,-0.36861307000064175
+fiqa,qld,First-Stage,F1,win,1,10792,How can I calculate a “running” return using XIRR in a spreadsheet?,0.2043823975884861,0.6131471927654584,0.4087647951769723
+fiqa,qld,First-Stage,F1,win,2,9644,"If early exercise is a bad idea, why American option is more expensive than European [duplicate]",0.0,0.3333333333333333,0.3333333333333333
+fiqa,qld,First-Stage,F1,win,3,3006,"Strategies for putting away money for a child's future (college, etc.)?",0.1513012067494067,0.3026024134988134,0.1513012067494067
+fiqa,qld,First-Stage,F1,win,4,4981,Where can I find open source portfolio management software?,0.1815417925373526,0.2960819109658652,0.11454011842851264
+fiqa,qld,First-Stage,F1,win,5,7925,Can I sell a stock immediately?,0.0,0.0874717141014082,0.0874717141014082
+fiqa,qld,First-Stage,F2,loss,1,1310,Is is possible to take a mortgage using Bitcoin as collateral?,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,qld,First-Stage,F2,loss,2,475,Do I need a new EIN since I am hiring employees for my LLC?,0.3562071871080222,0.0,-0.3562071871080222
+fiqa,qld,First-Stage,F2,loss,3,4813,Dealer Financing Fell Through on vehicle purchase: Scam?,0.3333333333333333,0.0,-0.3333333333333333
+fiqa,qld,First-Stage,F2,loss,4,4700,Better to get loan from finance company or bank considering the drop of credit score?,0.3154648767857287,0.0,-0.3154648767857287
+fiqa,qld,First-Stage,F2,loss,5,2316,What exchange rate does El Al use when converting final payment amount to shekels?,1.0,0.6934264036172708,-0.3065735963827292
+fiqa,qld,First-Stage,F2,loss,6,2676,Tax question about selling a car,0.3010299956639812,0.0,-0.3010299956639812
+fiqa,qld,First-Stage,F2,loss,7,9188,Selling mutual fund and buying equivalent ETF: Can I 1031 exchange?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,qld,First-Stage,F2,loss,8,8970,"What's the difference, if any, between stock appreciation and compound interest?",0.5802792108518124,0.3868528072345416,-0.19342640361727087
+fiqa,qld,First-Stage,F2,loss,9,1736,How can people have such high credit card debts?,0.3391602052736161,0.1460683498427064,-0.19309185543090973
+fiqa,qld,First-Stage,F2,loss,10,8544,Strategies to recover from a bad short-term call options purchase where the underlying dropped instead?,0.3868528072345416,0.2184074368181641,-0.16844537041637747
+fiqa,qld,First-Stage,F2,win,1,9644,"If early exercise is a bad idea, why American option is more expensive than European [duplicate]",0.0,0.3154648767857287,0.3154648767857287
+fiqa,qld,First-Stage,F2,win,2,4504,what is the best way of investment which gives returns forever?,0.3868528072345416,0.6131471927654584,0.2262943855309168
+fiqa,qld,First-Stage,F2,win,3,5683,What is the PEG ratio? How is the PEG ratio calculated? How is the PEG ratio useful for stock investing?,0.3065735963827292,0.4684505201610769,0.16187692377834773
+fiqa,qld,First-Stage,F2,win,4,5271,Why are auto leases stubbornly strict about visa status and how to work around that?,0.0,0.1564262420075854,0.1564262420075854
+fiqa,qld,First-Stage,F2,win,5,10710,Probablity of touching In the money vs expiring in the money for an american option,0.2890648263178879,0.430676558073393,0.14161173175550512
+fiqa,qld,First-Stage,F3,loss,1,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,qld,First-Stage,F3,loss,2,1441,What's the difference between Market Cap and NAV?,0.9267582364714126,0.1175161047564271,-0.8092421317149856
+fiqa,qld,First-Stage,F3,loss,3,1310,Is is possible to take a mortgage using Bitcoin as collateral?,1.0,0.3562071871080222,-0.6437928128919779
+fiqa,qld,First-Stage,F3,loss,4,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,First-Stage,F3,loss,5,8970,"What's the difference, if any, between stock appreciation and compound interest?",0.5802792108518124,0.0,-0.5802792108518124
+fiqa,qld,First-Stage,F3,loss,6,2445,How do I notify the IRS of a new member to an LLC?,1.0,0.430676558073393,-0.569323441926607
+fiqa,qld,First-Stage,F3,loss,7,4946,Something looks off about Mitsubishi financial data,1.0,0.430676558073393,-0.569323441926607
+fiqa,qld,First-Stage,F3,loss,8,6041,Most effective Fundamental Analysis indicators for market entry,0.6366824387328317,0.123151194370365,-0.5135312443624667
+fiqa,qld,First-Stage,F3,loss,9,8795,Stock exchanges using open outcry,1.0,0.5,-0.5
+fiqa,qld,First-Stage,F3,loss,10,8475,Why I cannot find a “Pure Cash” option in 401k investments?,0.5666867828578932,0.1063366810302298,-0.4603501018276634
+fiqa,qld,First-Stage,F3,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.0,1.0,1.0
+fiqa,qld,First-Stage,F3,win,2,5616,How and where do companies publish financial reports?,0.0,0.6309297535714575,0.6309297535714575
+fiqa,qld,First-Stage,F3,win,3,9929,"Investing in commodities, pros and cons?",0.0,0.5,0.5
+fiqa,qld,First-Stage,F3,win,4,8121,Can I calculate stock value with Williams%R if I know the last set?,0.5,1.0,0.5
+fiqa,qld,First-Stage,F3,win,5,7109,How do I analyse moving averages?,0.0,0.4161811555487308,0.4161811555487308
+fiqa,qld,First-Stage,F4,loss,1,1310,Is is possible to take a mortgage using Bitcoin as collateral?,1.0,0.5,-0.5
+fiqa,qld,First-Stage,F4,loss,2,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.6131471927654584,0.2184074368181641,-0.39473975594729427
+fiqa,qld,First-Stage,F4,loss,3,1451,"How do you find an ethical, honest independent insurance broker in Canada?",0.3868528072345416,0.0,-0.3868528072345416
+fiqa,qld,First-Stage,F4,loss,4,4600,"Why government bonds fluctuate so much, even though interest rates don't change that often?",0.3868528072345416,0.0,-0.3868528072345416
+fiqa,qld,First-Stage,F4,loss,5,4946,Something looks off about Mitsubishi financial data,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,qld,First-Stage,F4,loss,6,10932,Transferring money from 403B to 401K?,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,qld,First-Stage,F4,loss,7,475,Do I need a new EIN since I am hiring employees for my LLC?,0.3562071871080222,0.0,-0.3562071871080222
+fiqa,qld,First-Stage,F4,loss,8,4700,Better to get loan from finance company or bank considering the drop of credit score?,0.3154648767857287,0.0,-0.3154648767857287
+fiqa,qld,First-Stage,F4,loss,9,1441,What's the difference between Market Cap and NAV?,0.9267582364714126,0.6152188821268791,-0.3115393543445335
+fiqa,qld,First-Stage,F4,loss,10,2676,Tax question about selling a car,0.3010299956639812,0.0,-0.3010299956639812
+fiqa,qld,First-Stage,F4,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.0,1.0,1.0
+fiqa,qld,First-Stage,F4,win,2,8121,Can I calculate stock value with Williams%R if I know the last set?,0.5,1.0,0.5
+fiqa,qld,First-Stage,F4,win,3,7109,How do I analyse moving averages?,0.0,0.4161811555487308,0.4161811555487308
+fiqa,qld,First-Stage,F4,win,4,5616,How and where do companies publish financial reports?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,qld,First-Stage,F4,win,5,721,What are “upstream investments” and “downstream investments” in this context?,0.6309297535714575,1.0,0.36907024642854247
+fiqa,qld,First-Stage,F5,loss,1,1451,"How do you find an ethical, honest independent insurance broker in Canada?",0.3868528072345416,0.0,-0.3868528072345416
+fiqa,qld,First-Stage,F5,loss,2,4600,"Why government bonds fluctuate so much, even though interest rates don't change that often?",0.3868528072345416,0.0,-0.3868528072345416
+fiqa,qld,First-Stage,F5,loss,3,4946,Something looks off about Mitsubishi financial data,1.0,0.6309297535714575,-0.36907024642854247
+fiqa,qld,First-Stage,F5,loss,4,4700,Better to get loan from finance company or bank considering the drop of credit score?,0.3154648767857287,0.0,-0.3154648767857287
+fiqa,qld,First-Stage,F5,loss,5,6041,Most effective Fundamental Analysis indicators for market entry,0.6366824387328317,0.346209643223856,-0.2904727955089757
+fiqa,qld,First-Stage,F5,loss,6,10034,Tax implications of holding EWU (or other such UK ETFs) as a US citizen?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,qld,First-Stage,F5,loss,7,6278,What is the best way to help my dad consolidate his credit card debt at a lower rate?,0.7903864795495061,0.5714285040141098,-0.2189579755353963
+fiqa,qld,First-Stage,F5,loss,8,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",0.4441228664487979,0.2346393630113782,-0.2094835034374197
+fiqa,qld,First-Stage,F5,loss,9,8970,"What's the difference, if any, between stock appreciation and compound interest?",0.5802792108518124,0.3868528072345416,-0.19342640361727087
+fiqa,qld,First-Stage,F5,loss,10,3254,Why do people buy US dollars on the black market?,0.6713860725233041,0.5256940434743352,-0.14569202904896883
+fiqa,qld,First-Stage,F5,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.0,1.0,1.0
+fiqa,qld,First-Stage,F5,win,2,8121,Can I calculate stock value with Williams%R if I know the last set?,0.5,1.0,0.5
+fiqa,qld,First-Stage,F5,win,3,7109,How do I analyse moving averages?,0.0,0.4161811555487308,0.4161811555487308
+fiqa,qld,First-Stage,F5,win,4,9644,"If early exercise is a bad idea, why American option is more expensive than European [duplicate]",0.0,0.3154648767857287,0.3154648767857287
+fiqa,qld,First-Stage,F5,win,5,928,How can I determine if a FHA loan refinance offer is from a reputable lender,0.3065735963827292,0.6131471927654584,0.3065735963827292
+fiqa,qld,First-Stage,F6,loss,1,1310,Is is possible to take a mortgage using Bitcoin as collateral?,1.0,0.0,-1.0
+fiqa,qld,First-Stage,F6,loss,2,4946,Something looks off about Mitsubishi financial data,1.0,0.0,-1.0
+fiqa,qld,First-Stage,F6,loss,3,8795,Stock exchanges using open outcry,1.0,0.0,-1.0
+fiqa,qld,First-Stage,F6,loss,4,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,qld,First-Stage,F6,loss,5,1441,What's the difference between Market Cap and NAV?,0.9267582364714126,0.0,-0.9267582364714126
+fiqa,qld,First-Stage,F6,loss,6,2445,How do I notify the IRS of a new member to an LLC?,1.0,0.3010299956639812,-0.6989700043360187
+fiqa,qld,First-Stage,F6,loss,7,6479,Trading on exchanges or via brokerage companies?,0.9197207891481876,0.2371977127692962,-0.6825230763788914
+fiqa,qld,First-Stage,F6,loss,8,6041,Most effective Fundamental Analysis indicators for market entry,0.6366824387328317,0.0,-0.6366824387328317
+fiqa,qld,First-Stage,F6,loss,9,7734,Can PE ratio of stocks be compared to other investments?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,First-Stage,F6,loss,10,8040,Best way to make most of savings with ISA and Offset mortgage,1.0,0.3868528072345416,-0.6131471927654584
+fiqa,qld,First-Stage,F6,win,1,11088,Am I required to have a lawyer create / oversee creation of my will?,0.0,1.0,1.0
+fiqa,qld,First-Stage,F6,win,2,5616,How and where do companies publish financial reports?,0.0,1.0,1.0
+fiqa,qld,First-Stage,F6,win,3,8121,Can I calculate stock value with Williams%R if I know the last set?,0.5,1.0,0.5
+fiqa,qld,First-Stage,F6,win,4,7109,How do I analyse moving averages?,0.0,0.4525081529734507,0.4525081529734507
+fiqa,qld,First-Stage,F6,win,5,721,What are “upstream investments” and “downstream investments” in this context?,0.6309297535714575,1.0,0.36907024642854247
+fiqa,bm25,Reranked Depth 100,F1,loss,1,15,Can I send a money order from USPS as a business?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F1,loss,2,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F1,loss,3,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F1,loss,4,939,How to correct a tax return filed electronically and already approved?,0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,Reranked Depth 100,F1,loss,5,5808,How do you calculate return on investment for a share of stock?,0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,Reranked Depth 100,F1,loss,6,3859,Buying an investment property in Australia - what are the advantages and disadvantages of building a house vs buying an existing one?,0.3333333333333333,0.0,-0.3333333333333333
+fiqa,bm25,Reranked Depth 100,F1,loss,7,2400,Will I be paid dividends if I own shares?,0.7653606369886217,0.4692787260227564,-0.2960819109658653
+fiqa,bm25,Reranked Depth 100,F1,loss,8,8507,When to sell a stock?,0.2346393630113782,0.0,-0.2346393630113782
+fiqa,bm25,Reranked Depth 100,F1,loss,9,8475,Why I cannot find a “Pure Cash” option in 401k investments?,0.8971754588393882,0.6836550817096436,-0.2135203771297446
+fiqa,bm25,Reranked Depth 100,F1,loss,10,5646,Do I need multiple credit monitoring services?,0.6713860725233041,0.4692787260227564,-0.20210734650054768
+fiqa,bm25,Reranked Depth 100,F1,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F1,win,2,10645,Explain the details and benefits of rebalancing a retirement portfolio?,0.2184074368181641,0.5109559939712153,0.29254855715305117
+fiqa,bm25,Reranked Depth 100,F1,win,3,9617,What differentiates index funds and ETFs?,0.4161811555487308,0.7039180890341347,0.28773693348540386
+fiqa,bm25,Reranked Depth 100,F1,win,4,5271,Why are auto leases stubbornly strict about visa status and how to work around that?,0.2021073465005475,0.4525081529734507,0.2504008064729032
+fiqa,bm25,Reranked Depth 100,F1,win,5,2183,Why are there many small banks and more banks in the U.S.?,0.2917883373452057,0.4329261794091841,0.1411378420639784
+fiqa,bm25,Reranked Depth 100,F2,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F2,loss,2,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F2,loss,3,939,How to correct a tax return filed electronically and already approved?,0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,Reranked Depth 100,F2,loss,4,5808,How do you calculate return on investment for a share of stock?,0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,Reranked Depth 100,F2,loss,5,3859,Buying an investment property in Australia - what are the advantages and disadvantages of building a house vs buying an existing one?,0.3333333333333333,0.0,-0.3333333333333333
+fiqa,bm25,Reranked Depth 100,F2,loss,6,8507,When to sell a stock?,0.2346393630113782,0.0,-0.2346393630113782
+fiqa,bm25,Reranked Depth 100,F2,loss,7,2923,Should I give to charity by check or credit card?,0.6601396023754075,0.4599715079731103,-0.20016809440229716
+fiqa,bm25,Reranked Depth 100,F2,loss,8,2296,How does a bank make money on an interest free secured loan?,0.3833427799846344,0.2350455494144853,-0.1482972305701491
+fiqa,bm25,Reranked Depth 100,F2,loss,9,1393,"Which is better when working as a contractor, 1099 or incorporating?",0.2816249726597774,0.1513012067494067,-0.13032376591037068
+fiqa,bm25,Reranked Depth 100,F2,loss,10,8475,Why I cannot find a “Pure Cash” option in 401k investments?,0.8971754588393882,0.7957503936198023,-0.10142506521958594
+fiqa,bm25,Reranked Depth 100,F2,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F2,win,2,10645,Explain the details and benefits of rebalancing a retirement portfolio?,0.2184074368181641,0.5109559939712153,0.29254855715305117
+fiqa,bm25,Reranked Depth 100,F2,win,3,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",0.1815417925373526,0.3228087653971817,0.1412669728598291
+fiqa,bm25,Reranked Depth 100,F2,win,4,10267,How should I prepare for the next financial crisis?,0.0,0.113053401757872,0.113053401757872
+fiqa,bm25,Reranked Depth 100,F2,win,5,9391,Should I replace bonds in a passive investment strategy,0.1951900249960508,0.3080351663449861,0.11284514134893533
+fiqa,bm25,Reranked Depth 100,F3,loss,1,15,Can I send a money order from USPS as a business?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F3,loss,2,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F3,loss,3,1451,"How do you find an ethical, honest independent insurance broker in Canada?",1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F3,loss,4,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F3,loss,5,3014,What investments are positively related to the housing market decline?,0.3868528072345416,0.0,-0.3868528072345416
+fiqa,bm25,Reranked Depth 100,F3,loss,6,2296,How does a bank make money on an interest free secured loan?,0.3833427799846344,0.0,-0.3833427799846344
+fiqa,bm25,Reranked Depth 100,F3,loss,7,3859,Buying an investment property in Australia - what are the advantages and disadvantages of building a house vs buying an existing one?,0.3333333333333333,0.0,-0.3333333333333333
+fiqa,bm25,Reranked Depth 100,F3,loss,8,2400,Will I be paid dividends if I own shares?,0.7653606369886217,0.4692787260227564,-0.2960819109658653
+fiqa,bm25,Reranked Depth 100,F3,loss,9,4615,Are solar cell panels and wind mills worth the money?,0.5274541611612878,0.2473863590483341,-0.2800678021129538
+fiqa,bm25,Reranked Depth 100,F3,loss,10,4504,what is the best way of investment which gives returns forever?,0.8772153153380493,0.6131471927654584,-0.26406812257259094
+fiqa,bm25,Reranked Depth 100,F3,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F3,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F3,win,3,2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,bm25,Reranked Depth 100,F3,win,4,9617,What differentiates index funds and ETFs?,0.4161811555487308,0.7653606369886217,0.34917948143989086
+fiqa,bm25,Reranked Depth 100,F3,win,5,10645,Explain the details and benefits of rebalancing a retirement portfolio?,0.2184074368181641,0.5109559939712153,0.29254855715305117
+fiqa,bm25,Reranked Depth 100,F4,loss,1,15,Can I send a money order from USPS as a business?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F4,loss,2,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F4,loss,3,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F4,loss,4,2400,Will I be paid dividends if I own shares?,0.7653606369886217,0.4692787260227564,-0.2960819109658653
+fiqa,bm25,Reranked Depth 100,F4,loss,5,8507,When to sell a stock?,0.2346393630113782,0.0,-0.2346393630113782
+fiqa,bm25,Reranked Depth 100,F4,loss,6,8779,How does a defined contribution plan work,0.1845756967795681,0.0,-0.1845756967795681
+fiqa,bm25,Reranked Depth 100,F4,loss,7,10122,Why diversify stocks/investments?,0.1510196182278052,0.0,-0.1510196182278052
+fiqa,bm25,Reranked Depth 100,F4,loss,8,2296,How does a bank make money on an interest free secured loan?,0.3833427799846344,0.2350455494144853,-0.1482972305701491
+fiqa,bm25,Reranked Depth 100,F4,loss,9,7109,How do I analyse moving averages?,0.4441228664487979,0.2960819109658652,-0.14804095548293267
+fiqa,bm25,Reranked Depth 100,F4,loss,10,1393,"Which is better when working as a contractor, 1099 or incorporating?",0.2816249726597774,0.1513012067494067,-0.13032376591037068
+fiqa,bm25,Reranked Depth 100,F4,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F4,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F4,win,3,2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,bm25,Reranked Depth 100,F4,win,4,10645,Explain the details and benefits of rebalancing a retirement portfolio?,0.2184074368181641,0.5109559939712153,0.29254855715305117
+fiqa,bm25,Reranked Depth 100,F4,win,5,9617,What differentiates index funds and ETFs?,0.4161811555487308,0.7039180890341347,0.28773693348540386
+fiqa,bm25,Reranked Depth 100,F5,loss,1,15,Can I send a money order from USPS as a business?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F5,loss,2,2400,Will I be paid dividends if I own shares?,0.7653606369886217,0.4692787260227564,-0.2960819109658653
+fiqa,bm25,Reranked Depth 100,F5,loss,3,8507,When to sell a stock?,0.2346393630113782,0.0,-0.2346393630113782
+fiqa,bm25,Reranked Depth 100,F5,loss,4,7109,How do I analyse moving averages?,0.4441228664487979,0.2960819109658652,-0.14804095548293267
+fiqa,bm25,Reranked Depth 100,F5,loss,5,3254,Why do people buy US dollars on the black market?,0.6049306994552042,0.4692787260227564,-0.13565197343244778
+fiqa,bm25,Reranked Depth 100,F5,loss,6,1393,"Which is better when working as a contractor, 1099 or incorporating?",0.2816249726597774,0.1513012067494067,-0.13032376591037068
+fiqa,bm25,Reranked Depth 100,F5,loss,7,8532,What do these options trading terms mean?,0.2960819109658652,0.2346393630113782,-0.06144254795448703
+fiqa,bm25,Reranked Depth 100,F5,loss,8,5616,How and where do companies publish financial reports?,0.3868528072345416,0.3333333333333333,-0.05351947390120826
+fiqa,bm25,Reranked Depth 100,F5,loss,9,939,How to correct a tax return filed electronically and already approved?,0.430676558073393,0.3868528072345416,-0.04382375083885143
+fiqa,bm25,Reranked Depth 100,F5,loss,10,6668,Approximate IT company valuation (to proximate stock options value),0.2371977127692962,0.2184074368181641,-0.018790275951132085
+fiqa,bm25,Reranked Depth 100,F5,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F5,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F5,win,3,10645,Explain the details and benefits of rebalancing a retirement portfolio?,0.2184074368181641,0.5109559939712153,0.29254855715305117
+fiqa,bm25,Reranked Depth 100,F5,win,4,5646,Do I need multiple credit monitoring services?,0.6713860725233041,0.9060254355346824,0.23463936301137833
+fiqa,bm25,Reranked Depth 100,F5,win,5,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,0.1301266833307005,0.2741708125981702,0.14404412926746973
+fiqa,bm25,Reranked Depth 100,F6,loss,1,15,Can I send a money order from USPS as a business?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F6,loss,2,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F6,loss,3,1451,"How do you find an ethical, honest independent insurance broker in Canada?",1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F6,loss,4,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,bm25,Reranked Depth 100,F6,loss,5,4504,what is the best way of investment which gives returns forever?,0.8772153153380493,0.0,-0.8772153153380493
+fiqa,bm25,Reranked Depth 100,F6,loss,6,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F6,loss,7,9771,Is there any emprical research done on 'adding to a loser',0.6131471927654584,0.0,-0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F6,loss,8,6420,Does the bid/ask concept exist in dealer markets?,0.8065735963827293,0.2371977127692962,-0.569375883613433
+fiqa,bm25,Reranked Depth 100,F6,loss,9,9668,Do stock option prices predicate the underlying stock's movement?,0.4692787260227564,0.0,-0.4692787260227564
+fiqa,bm25,Reranked Depth 100,F6,loss,10,939,How to correct a tax return filed electronically and already approved?,0.430676558073393,0.0,-0.430676558073393
+fiqa,bm25,Reranked Depth 100,F6,win,1,1074,How common is “pass-through” health insurance?,0.0,1.0,1.0
+fiqa,bm25,Reranked Depth 100,F6,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,bm25,Reranked Depth 100,F6,win,3,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,0.1301266833307005,0.5272750663607827,0.3971483830300822
+fiqa,bm25,Reranked Depth 100,F6,win,4,2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,bm25,Reranked Depth 100,F6,win,5,9617,What differentiates index funds and ETFs?,0.4161811555487308,0.7653606369886217,0.34917948143989086
+fiqa,qld,Reranked Depth 100,F1,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F1,loss,2,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F1,loss,3,2923,Should I give to charity by check or credit card?,0.6552438651310554,0.1312050775123417,-0.5240387876187137
+fiqa,qld,Reranked Depth 100,F1,loss,4,11088,Am I required to have a lawyer create / oversee creation of my will?,0.430676558073393,0.0,-0.430676558073393
+fiqa,qld,Reranked Depth 100,F1,loss,5,5741,Learning investing and the stock market,0.3065735963827292,0.0,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F1,loss,6,4265,Does it make any sense to directly contribute to reducing the US national debt?,0.3026024134988134,0.0,-0.3026024134988134
+fiqa,qld,Reranked Depth 100,F1,loss,7,2296,How does a bank make money on an interest free secured loan?,0.2350455494144853,0.0,-0.2350455494144853
+fiqa,qld,Reranked Depth 100,F1,loss,8,3594,"If I were to get into a life situation where I would not be able to make regular payments, do lenders typically provide options other than default?",0.3853585682515056,0.1510196182278052,-0.2343389500237004
+fiqa,qld,Reranked Depth 100,F1,loss,9,8779,How does a defined contribution plan work,0.1845756967795681,0.0,-0.1845756967795681
+fiqa,qld,Reranked Depth 100,F1,loss,10,1736,How can people have such high credit card debts?,0.5087403079104241,0.3391602052736161,-0.169580102636808
+fiqa,qld,Reranked Depth 100,F1,win,1,7758,Bid/ask spreads for index funds,0.5,1.0,0.5
+fiqa,qld,Reranked Depth 100,F1,win,2,4464,Are Australian mutual fund fees large compared to US?,0.0,0.5,0.5
+fiqa,qld,Reranked Depth 100,F1,win,3,5271,Why are auto leases stubbornly strict about visa status and how to work around that?,0.2346393630113782,0.4525081529734507,0.2178687899620725
+fiqa,qld,Reranked Depth 100,F1,win,4,2398,Frustrated Landlord,0.0,0.1312050775123417,0.1312050775123417
+fiqa,qld,Reranked Depth 100,F1,win,5,2676,Tax question about selling a car,0.5,0.6309297535714575,0.13092975357145753
+fiqa,qld,Reranked Depth 100,F2,loss,1,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F2,loss,2,5741,Learning investing and the stock market,0.3065735963827292,0.0,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F2,loss,3,4265,Does it make any sense to directly contribute to reducing the US national debt?,0.3026024134988134,0.0,-0.3026024134988134
+fiqa,qld,Reranked Depth 100,F2,loss,4,2296,How does a bank make money on an interest free secured loan?,0.2350455494144853,0.0,-0.2350455494144853
+fiqa,qld,Reranked Depth 100,F2,loss,5,3594,"If I were to get into a life situation where I would not be able to make regular payments, do lenders typically provide options other than default?",0.3853585682515056,0.1510196182278052,-0.2343389500237004
+fiqa,qld,Reranked Depth 100,F2,loss,6,2923,Should I give to charity by check or credit card?,0.6552438651310554,0.4522136070314881,-0.20303025809956726
+fiqa,qld,Reranked Depth 100,F2,loss,7,4539,How should I save money if the real interest rate (after inflation) is negative?,0.1772392867840477,0.0,-0.1772392867840477
+fiqa,qld,Reranked Depth 100,F2,loss,8,1736,How can people have such high credit card debts?,0.5087403079104241,0.3391602052736161,-0.169580102636808
+fiqa,qld,Reranked Depth 100,F2,loss,9,89,How can I deposit a check made out to my business into my personal account?,0.1513012067494067,0.0,-0.1513012067494067
+fiqa,qld,Reranked Depth 100,F2,loss,10,1393,"Which is better when working as a contractor, 1099 or incorporating?",0.2816249726597774,0.1513012067494067,-0.13032376591037068
+fiqa,qld,Reranked Depth 100,F2,win,1,753,Taxes due for hobbyist Group Buy,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F2,win,2,4464,Are Australian mutual fund fees large compared to US?,0.0,0.5,0.5
+fiqa,qld,Reranked Depth 100,F2,win,3,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,0.298254219601818,0.5272750663607827,0.22902084675896467
+fiqa,qld,Reranked Depth 100,F2,win,4,5646,Do I need multiple credit monitoring services?,0.7039180890341347,0.9060254355346824,0.20210734650054774
+fiqa,qld,Reranked Depth 100,F2,win,5,11088,Am I required to have a lawyer create / oversee creation of my will?,0.430676558073393,0.6309297535714575,0.20025319549806453
+fiqa,qld,Reranked Depth 100,F3,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F3,loss,2,1451,"How do you find an ethical, honest independent insurance broker in Canada?",1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F3,loss,3,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F3,loss,4,9668,Do stock option prices predicate the underlying stock's movement?,0.4692787260227564,0.0,-0.4692787260227564
+fiqa,qld,Reranked Depth 100,F3,loss,5,5741,Learning investing and the stock market,0.3065735963827292,0.0,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F3,loss,6,8970,"What's the difference, if any, between stock appreciation and compound interest?",0.9197207891481876,0.6131471927654584,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F3,loss,7,2296,How does a bank make money on an interest free secured loan?,0.2350455494144853,0.0,-0.2350455494144853
+fiqa,qld,Reranked Depth 100,F3,loss,8,3014,What investments are positively related to the housing market decline?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,qld,Reranked Depth 100,F3,loss,9,8779,How does a defined contribution plan work,0.1845756967795681,0.0,-0.1845756967795681
+fiqa,qld,Reranked Depth 100,F3,loss,10,1736,How can people have such high credit card debts?,0.5087403079104241,0.3391602052736161,-0.169580102636808
+fiqa,qld,Reranked Depth 100,F3,win,1,9824,Where can end-of-day data be downloaded for corporate bonds?,0.0,1.0,1.0
+fiqa,qld,Reranked Depth 100,F3,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F3,win,3,753,Taxes due for hobbyist Group Buy,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F3,win,4,4464,Are Australian mutual fund fees large compared to US?,0.0,0.5,0.5
+fiqa,qld,Reranked Depth 100,F3,win,5,2395,Freelance site with lowest commission fees?,0.5,1.0,0.5
+fiqa,qld,Reranked Depth 100,F4,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F4,loss,2,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F4,loss,3,5741,Learning investing and the stock market,0.3065735963827292,0.0,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F4,loss,4,2296,How does a bank make money on an interest free secured loan?,0.2350455494144853,0.0,-0.2350455494144853
+fiqa,qld,Reranked Depth 100,F4,loss,5,3014,What investments are positively related to the housing market decline?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,qld,Reranked Depth 100,F4,loss,6,1736,How can people have such high credit card debts?,0.5087403079104241,0.3391602052736161,-0.169580102636808
+fiqa,qld,Reranked Depth 100,F4,loss,7,3791,"""When people say 'Interest rates are at all time low!"""" … Which interest rate are they actually referring to?""",0.3228087653971817,0.1564262420075854,-0.16638252338959628
+fiqa,qld,Reranked Depth 100,F4,loss,8,89,How can I deposit a check made out to my business into my personal account?,0.1513012067494067,0.0,-0.1513012067494067
+fiqa,qld,Reranked Depth 100,F4,loss,9,10122,Why diversify stocks/investments?,0.1510196182278052,0.0,-0.1510196182278052
+fiqa,qld,Reranked Depth 100,F4,loss,10,5616,How and where do companies publish financial reports?,0.6309297535714575,0.5,-0.13092975357145753
+fiqa,qld,Reranked Depth 100,F4,win,1,9824,Where can end-of-day data be downloaded for corporate bonds?,0.0,1.0,1.0
+fiqa,qld,Reranked Depth 100,F4,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F4,win,3,753,Taxes due for hobbyist Group Buy,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F4,win,4,4464,Are Australian mutual fund fees large compared to US?,0.0,0.5,0.5
+fiqa,qld,Reranked Depth 100,F4,win,5,2076,Can vet / veterinary bills be considered deductions (tax-deductible) for Income Tax purposes [Canada]?,0.0,0.3868528072345416,0.3868528072345416
+fiqa,qld,Reranked Depth 100,F5,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F5,loss,2,3014,What investments are positively related to the housing market decline?,0.6131471927654584,0.3868528072345416,-0.2262943855309168
+fiqa,qld,Reranked Depth 100,F5,loss,3,1736,How can people have such high credit card debts?,0.5087403079104241,0.3391602052736161,-0.169580102636808
+fiqa,qld,Reranked Depth 100,F5,loss,4,89,How can I deposit a check made out to my business into my personal account?,0.1513012067494067,0.0,-0.1513012067494067
+fiqa,qld,Reranked Depth 100,F5,loss,5,5616,How and where do companies publish financial reports?,0.6309297535714575,0.5,-0.13092975357145753
+fiqa,qld,Reranked Depth 100,F5,loss,6,1393,"Which is better when working as a contractor, 1099 or incorporating?",0.2816249726597774,0.1513012067494067,-0.13032376591037068
+fiqa,qld,Reranked Depth 100,F5,loss,7,5422,"What are some good books for learning stocks, bonds, derivatives e.t.c for beginner with a math background?",0.2429718246796358,0.123151194370365,-0.1198206303092708
+fiqa,qld,Reranked Depth 100,F5,loss,8,3934,Should market based health insurance premiums be factored into 6 months emergency fund savings?,0.298254219601818,0.1951900249960508,-0.10306419460576724
+fiqa,qld,Reranked Depth 100,F5,loss,9,11088,Am I required to have a lawyer create / oversee creation of my will?,0.430676558073393,0.3333333333333333,-0.09734322474005969
+fiqa,qld,Reranked Depth 100,F5,loss,10,5271,Why are auto leases stubbornly strict about visa status and how to work around that?,0.2346393630113782,0.2021073465005475,-0.03253201651083068
+fiqa,qld,Reranked Depth 100,F5,win,1,9824,Where can end-of-day data be downloaded for corporate bonds?,0.0,1.0,1.0
+fiqa,qld,Reranked Depth 100,F5,win,2,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F5,win,3,753,Taxes due for hobbyist Group Buy,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F5,win,4,4464,Are Australian mutual fund fees large compared to US?,0.0,0.5,0.5
+fiqa,qld,Reranked Depth 100,F5,win,5,9115,Why does the calculation for percentage profit vary based on whether a position is short vs. long?,0.0,0.2346393630113782,0.2346393630113782
+fiqa,qld,Reranked Depth 100,F6,loss,1,549,Where to request ACH Direct DEBIT of funds from MY OWN personal bank account?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F6,loss,2,1451,"How do you find an ethical, honest independent insurance broker in Canada?",1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F6,loss,3,10932,Transferring money from 403B to 401K?,1.0,0.0,-1.0
+fiqa,qld,Reranked Depth 100,F6,loss,4,104,Investing/business with other people's money: How does it work?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F6,loss,5,4504,what is the best way of investment which gives returns forever?,0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F6,loss,6,9771,Is there any emprical research done on 'adding to a loser',0.6131471927654584,0.0,-0.6131471927654584
+fiqa,qld,Reranked Depth 100,F6,loss,7,6420,Does the bid/ask concept exist in dealer markets?,0.8065735963827293,0.2371977127692962,-0.569375883613433
+fiqa,qld,Reranked Depth 100,F6,loss,8,9668,Do stock option prices predicate the underlying stock's movement?,0.4692787260227564,0.0,-0.4692787260227564
+fiqa,qld,Reranked Depth 100,F6,loss,9,5741,Learning investing and the stock market,0.3065735963827292,0.0,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F6,loss,10,8970,"What's the difference, if any, between stock appreciation and compound interest?",0.9197207891481876,0.6131471927654584,-0.3065735963827292
+fiqa,qld,Reranked Depth 100,F6,win,1,9824,Where can end-of-day data be downloaded for corporate bonds?,0.0,1.0,1.0
+fiqa,qld,Reranked Depth 100,F6,win,2,4464,Are Australian mutual fund fees large compared to US?,0.0,0.6309297535714575,0.6309297535714575
+fiqa,qld,Reranked Depth 100,F6,win,3,6890,Where does the money go when I buy stocks?,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F6,win,4,753,Taxes due for hobbyist Group Buy,0.0,0.6131471927654584,0.6131471927654584
+fiqa,qld,Reranked Depth 100,F6,win,5,2395,Freelance site with lowest commission fees?,0.5,1.0,0.5

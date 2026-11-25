@@ -15,6 +15,7 @@ from pathlib import Path
 import time
 from typing import Any, Dict, List, Tuple, Union
 
+import numpy as np
 from pyserini.search.lucene import LuceneSearcher
 from tqdm import tqdm
 
@@ -96,14 +97,13 @@ def run_first_stage(
         t1 = time.perf_counter()
         query_latencies[qid] = t1 - t0
 
-        # Enforce strictly decreasing scores to satisfy TREC invariant (Section 13)
-        # In case of exact score ties, subtract an infinitesimal delta to preserve ranking
+        # Enforce strictly decreasing scores in float32 to satisfy TREC & ir_measures invariant
         prev_score = float("inf")
         for rank_idx, (docid, score) in enumerate(hits, start=1):
-            if score >= prev_score:
-                score = prev_score - 1e-7
+            if np.float32(score) >= np.float32(prev_score):
+                score = float(np.float32(prev_score) - 1e-4)
             prev_score = score
-            lines_to_write.append(f"{qid} Q0 {docid} {rank_idx} {score:.7f} {tag}\n")
+            lines_to_write.append(f"{qid} Q0 {docid} {rank_idx} {score:.6f} {tag}\n")
 
     end_wall = time.perf_counter()
     end_utc = datetime.now(timezone.utc)

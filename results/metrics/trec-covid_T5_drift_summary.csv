@@ -1,0 +1,25 @@
+dataset,retriever,stage,feedback,wins_vs_F0,losses_vs_F0,ties_vs_F0,win_loss_ratio
+trec-covid,bm25,First-Stage,F1,32,15,3,2.1333333333333333
+trec-covid,bm25,First-Stage,F2,28,14,8,2.0
+trec-covid,bm25,First-Stage,F3,27,22,1,1.2272727272727273
+trec-covid,bm25,First-Stage,F4,35,13,2,2.6923076923076925
+trec-covid,bm25,First-Stage,F5,37,11,2,3.3636363636363638
+trec-covid,bm25,First-Stage,F6,25,24,1,1.0416666666666667
+trec-covid,qld,First-Stage,F1,24,24,2,1.0
+trec-covid,qld,First-Stage,F2,23,23,4,1.0
+trec-covid,qld,First-Stage,F3,29,20,1,1.45
+trec-covid,qld,First-Stage,F4,37,12,1,3.0833333333333335
+trec-covid,qld,First-Stage,F5,40,8,2,5.0
+trec-covid,qld,First-Stage,F6,31,19,0,1.631578947368421
+trec-covid,bm25,Reranked Depth 100,F1,19,20,11,0.95
+trec-covid,bm25,Reranked Depth 100,F2,17,19,14,0.8947368421052632
+trec-covid,bm25,Reranked Depth 100,F3,20,23,7,0.8695652173913043
+trec-covid,bm25,Reranked Depth 100,F4,23,15,12,1.5333333333333334
+trec-covid,bm25,Reranked Depth 100,F5,20,11,19,1.8181818181818181
+trec-covid,bm25,Reranked Depth 100,F6,23,20,7,1.15
+trec-covid,qld,Reranked Depth 100,F1,19,21,10,0.9047619047619048
+trec-covid,qld,Reranked Depth 100,F2,16,16,18,1.0
+trec-covid,qld,Reranked Depth 100,F3,23,19,8,1.2105263157894737
+trec-covid,qld,Reranked Depth 100,F4,24,12,14,2.0
+trec-covid,qld,Reranked Depth 100,F5,22,11,17,2.0
+trec-covid,qld,Reranked Depth 100,F6,24,17,9,1.411764705882353

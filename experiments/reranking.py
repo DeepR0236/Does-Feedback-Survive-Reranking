@@ -187,7 +187,7 @@ def run_reranking_experiment(
 
     # 4. Upsert into results/metrics/{dataset}_per_query.csv
     per_query_csv = metrics_dir / f"{dataset}_per_query.csv"
-    if per_query_csv.exists() and not force:
+    if per_query_csv.exists():
         existing_pq = pd.read_csv(per_query_csv)
         # Drop matching reranked records to update idempotently
         mask = ~(

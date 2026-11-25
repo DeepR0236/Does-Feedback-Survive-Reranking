@@ -1,0 +1,18 @@
+{
+  "dataset": "nfcorpus",
+  "retriever": "bm25",
+  "feedback": "F1",
+  "reranked": true,
+  "depth": 100,
+  "tag": "bm25_F1_depth100",
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "num_queries": 308,
+  "package_versions": {
+    "torch": "2.6.0+cu124",
+    "sentence_transformers": "6.3.0",
+    "ir_measures": "0.4.3",
+    "pyserini": "1.2.0"
+  },
+  "elapsed_seconds": 0.2891940800000157,
+  "created_utc": "2026-11-25T11:41:17.417095+00:00"
+}
